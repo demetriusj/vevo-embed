@@ -53,9 +53,8 @@ if(!SERVER_ENV) {
 
 }
 /*
-(function() {
-  function a(u) {var h = document.head || document.getElementsByTagName('head')[0];var s = document.createElement('script');s.type = 'text/javascript';s.charset = 'utf8';s.async = false;s.src = u;h.appendChild(s);}
-  a('//cdnjs.cloudflare.com/ajax/libs/react/0.11.2/react-with-addons.js');
-  a('//localhost:3000/js/component.js');
-})()
+javascript:(function() {function a(u) {var h = document.head || document.getElementsByTagName('head')[0];var s = document.createElement('script');s.type = 'text/javascript';s.charset = 'utf8';s.async = false;s.src = u;h.appendChild(s);}a('//cdnjs.cloudflare.com/ajax/libs/react/0.11.2/react-with-addons.js');a('//rawgit.com/demetriusj/vevo-embed/master/build/browser/component.js');})()
+
+(function() {define=false;function a(u) {var h = document.head || document.getElementsByTagName('head')[0];var s = document.createElement('script');s.type = 'text/javascript';s.charset = 'utf8';s.async = false;s.src = u;h.appendChild(s);}a('//cdnjs.cloudflare.com/ajax/libs/react/0.11.2/react-with-addons.js');a('//rawgit.com/demetriusj/vevo-embed/master/build/browser/component.js');})()
+
 */
