@@ -1,0 +1,11 @@
+{
+  "configDir": "./config",
+
+  "manifestFiles": "./manifest.json",
+
+  "defaults": {
+    "lang": "JavaScript",
+    "assets": "stylus",
+    "createDir": true
+  }
+}

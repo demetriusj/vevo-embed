@@ -1,0 +1,982 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.4.0-beta4",
+  "hash": "4283b1c6",
+  "time": 388,
+  "assetsByChunkName": {
+    "assets": "assets.js",
+    "component": "component.js"
+  },
+  "assets": [
+    {
+      "name": "assets.js",
+      "size": 27838,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "assets"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "component.js",
+      "size": 165369,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "component"
+      ],
+      "emitted": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": false,
+      "initial": true,
+      "entry": true,
+      "size": 8538,
+      "names": [
+        "assets"
+      ],
+      "files": [
+        "assets.js"
+      ],
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "multi assets",
+          "name": "multi assets",
+          "size": 28,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "profile": {
+            "factory": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": []
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "name": "./components/watch-video/watch-video.styl",
+          "size": 1592,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "multi assets",
+          "profile": {
+            "factory": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "multi assets",
+              "module": "multi assets",
+              "moduleName": "multi assets",
+              "type": "single entry",
+              "userRequest": "/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+              "module": "./components/watch-video/watch-video.jsx",
+              "moduleName": "./components/watch-video/watch-video.jsx",
+              "type": "cjs require",
+              "userRequest": "./watch-video.styl",
+              "loc": "5:0-29"
+            }
+          ],
+          "source": "// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = require(\"!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl\");\nif(typeof content === 'string') content = [module.id, content, ''];\n// add the styles to the DOM\nvar update = require(\"!/Users/demi/Projects/react-pellet/node_modules/style-loader/addStyles.js\")(content);\n// Hot Module Replacement\nif(module.hot) {\n\t// When the styles change, update the <style> tags\n\tmodule.hot.accept(\"!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl\", function() {\n\t\tvar newContent = require(\"!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl\");\n\t\tif(typeof newContent === 'string') newContent = [module.id, newContent, ''];\n\t\tupdate(newContent);\n\t});\n\t// When the module is disposed, remove the <style> tags\n\tmodule.hot.dispose(function() { update(); });\n}"
+        },
+        {
+          "id": 4,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "name": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+          "size": 934,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "profile": {
+            "factory": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "module": "./components/watch-video/watch-video.styl",
+              "moduleName": "./components/watch-video/watch-video.styl",
+              "type": "cjs require",
+              "userRequest": "!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "loc": "4:14-325"
+            }
+          ],
+          "source": "exports = module.exports = require(\"/Users/demi/Projects/react-pellet/node_modules/css-loader/cssToString.js\")();\nexports.push([module.id, \".watchVideo-component {\\n  background: #000;\\n  z-index: 10000;\\n  position: fixed;\\n  bottom: 10px;\\n  right: 20px;\\n  width: 300px;\\n  height: 280px;\\n  overflow: hidden;\\n}\\n.watchVideo-component #vevo-player {\\n  width: 300px;\\n  height: 200px;\\n}\\n.watchVideo-component .logo {\\n  width: 100px;\\n  height: 22px;\\n  background: url(\"+require(\"./vevo-header.svg\")+\") no-repeat center;\\n}\\n.watchVideo-component .loading {\\n  color: #fff;\\n  font-size: 28px;\\n  text-align: center;\\n  line-height: 200px;\\n  height: 200px;\\n}\\n.watchVideo-component p {\\n  color: #ccc;\\n  font-family: sans-serif;\\n  padding: 7px;\\n}\\n.watchVideo-component p a {\\n  text-decoration: underline;\\n  color: #6495ed;\\n  cursor: pointer;\\n}\\n.watchVideo-component p a:hover {\\n  text-decoration: none;\\n}\\n\", \"\"]);"
+        },
+        {
+          "id": 6,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/addStyles.js",
+          "name": "/Users/demi/Projects/react-pellet/~/style-loader/addStyles.js",
+          "size": 3183,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "profile": {
+            "factory": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "module": "./components/watch-video/watch-video.styl",
+              "moduleName": "./components/watch-video/watch-video.styl",
+              "type": "cjs require",
+              "userRequest": "!/Users/demi/Projects/react-pellet/node_modules/style-loader/addStyles.js",
+              "loc": "7:13-97"
+            }
+          ],
+          "source": "/*\r\n\tMIT License http://www.opensource.org/licenses/mit-license.php\r\n\tAuthor Tobias Koppers @sokra\r\n*/\r\nvar stylesInDom = {};\r\n\r\nmodule.exports = function(list) {\r\n\tif(typeof DEBUG !== \"undefined\" && DEBUG) {\r\n\t\tif(typeof document !== \"object\") throw new Error(\"The style-loader cannot be used in a non-browser environment\");\r\n\t}\r\n\tvar styles = listToStyles(list);\r\n\taddStylesToDom(styles);\r\n\treturn function update(newList) {\r\n\t\tvar mayRemove = [];\r\n\t\tfor(var i = 0; i < styles.length; i++) {\r\n\t\t\tvar item = styles[i];\r\n\t\t\tvar domStyle = stylesInDom[item.id];\r\n\t\t\tdomStyle.refs--;\r\n\t\t\tmayRemove.push(domStyle);\r\n\t\t}\r\n\t\tif(newList) {\r\n\t\t\tvar newStyles = listToStyles(newList);\r\n\t\t\taddStylesToDom(newStyles);\r\n\t\t}\r\n\t\tfor(var i = 0; i < mayRemove.length; i++) {\r\n\t\t\tvar domStyle = mayRemove[i];\r\n\t\t\tif(domStyle.refs === 0) {\r\n\t\t\t\tfor(var j = 0; j < domStyle.parts.length; j++)\r\n\t\t\t\t\tdomStyle.parts[j]();\r\n\t\t\t\tdelete stylesInDom[domStyle.id];\r\n\t\t\t}\r\n\t\t}\r\n\t};\r\n}\r\n\r\nfunction addStylesToDom(styles) {\r\n\tfor(var i = 0; i < styles.length; i++) {\r\n\t\tvar item = styles[i];\r\n\t\tvar domStyle = stylesInDom[item.id];\r\n\t\tif(domStyle) {\r\n\t\t\tdomStyle.refs++;\r\n\t\t\tfor(var j = 0; j < domStyle.parts.length; j++) {\r\n\t\t\t\tdomStyle.parts[j](item.parts[j]);\r\n\t\t\t}\r\n\t\t\tfor(; j < item.parts.length; j++) {\r\n\t\t\t\tdomStyle.parts.push(addStyle(item.parts[j]));\r\n\t\t\t}\r\n\t\t} else {\r\n\t\t\tvar parts = [];\r\n\t\t\tfor(var j = 0; j < item.parts.length; j++) {\r\n\t\t\t\tparts.push(addStyle(item.parts[j]));\r\n\t\t\t}\r\n\t\t\tstylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};\r\n\t\t}\r\n\t}\r\n}\r\n\r\nfunction listToStyles(list) {\r\n\tvar styles = [];\r\n\tvar newStyles = {};\r\n\tfor(var i = 0; i < list.length; i++) {\r\n\t\tvar item = list[i];\r\n\t\tvar id = item[0];\r\n\t\tvar css = item[1];\r\n\t\tvar media = item[2];\r\n\t\t// var sourceMap = item[3];\r\n\t\tvar part = {css: css, media: media/*, sourceMap: sourceMap*/};\r\n\t\tif(!newStyles[id])\r\n\t\t\tstyles.push(newStyles[id] = {id: id, parts: [part]});\r\n\t\telse\r\n\t\t\tnewStyles[id].parts.push(part);\r\n\t}\r\n\treturn styles;\r\n}\r\n\r\nfunction addStyle(obj) {\r\n\tvar styleElement = document.createElement(\"style\");\r\n\tvar head = document.head || document.getElementsByTagName(\"head\")[0];\r\n\tstyleElement.type = \"text/css\";\r\n\thead.appendChild(styleElement);\r\n\tapplyToTag(styleElement, obj);\r\n\treturn function(newObj) {\r\n\t\tif(newObj) {\r\n\t\t\tif(newObj.css === obj.css && newObj.media === obj.media /*&& newObj.sourceMap === obj.sourceMap*/)\r\n\t\t\t\treturn;\r\n\t\t\tapplyToTag(styleElement, obj = newObj);\r\n\t\t} else {\r\n\t\t\thead.removeChild(styleElement);\r\n\t\t}\r\n\t};\r\n};\r\n\r\nfunction applyToTag(styleElement, obj) {\r\n\tvar css = obj.css;\r\n\tvar media = obj.media;\r\n\t// var sourceMap = obj.sourceMap;\r\n\r\n\t// No browser support\r\n\t// if(sourceMap && typeof btoa === \"function\") {\r\n\t\t// try {\r\n\t\t\t// css += \"\\n/*# sourceMappingURL=data:application/json;base64,\" + btoa(JSON.stringify(sourceMap)) + \" */\";\r\n\t\t// } catch(e) {}\r\n\t// }\r\n\tif(media) {\r\n\t\tstyleElement.setAttribute(\"media\", media)\r\n\t}\r\n\tif (styleElement.styleSheet) {\r\n\t\tstyleElement.styleSheet.cssText = css;\r\n\t} else {\r\n\t\twhile(styleElement.firstChild) {\r\n\t\t\tstyleElement.removeChild(styleElement.firstChild);\r\n\t\t}\r\n\t\tstyleElement.appendChild(document.createTextNode(css));\r\n\t}\r\n\r\n}\r\n"
+        },
+        {
+          "id": 8,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/cssToString.js",
+          "name": "/Users/demi/Projects/react-pellet/~/css-loader/cssToString.js",
+          "size": 352,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "profile": {
+            "factory": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "module": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+              "moduleName": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+              "type": "cjs require",
+              "userRequest": "/Users/demi/Projects/react-pellet/node_modules/css-loader/cssToString.js",
+              "loc": "1:27-110"
+            }
+          ],
+          "source": "module.exports = function() {\r\n\tvar list = [];\r\n\tlist.toString = function toString() {\r\n\t\tvar result = [];\r\n\t\tfor(var i = 0; i < this.length; i++) {\r\n\t\t\tvar item = this[i];\r\n\t\t\tif(item[2]) {\r\n\t\t\t\tresult.push(\"@media \" + item[2] + \"{\" + item[1] + \"}\");\r\n\t\t\t} else {\r\n\t\t\t\tresult.push(item[1]);\r\n\t\t\t}\r\n\t\t}\r\n\t\treturn result.join(\"\");\r\n\t};\r\n\treturn list;\r\n}"
+        },
+        {
+          "id": 21,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/url-loader/index.js?limit=100000&mimetype=image/svg+xml!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/vevo-header.svg",
+          "name": "./components/watch-video/vevo-header.svg",
+          "size": 2449,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "profile": {
+            "factory": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "module": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+              "moduleName": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+              "type": "cjs require",
+              "userRequest": "./vevo-header.svg",
+              "loc": "2:364-392"
+            }
+          ],
+          "source": "module.exports = \"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI4OHB4IiBoZWlnaHQ9IjIycHgiIHZpZXdCb3g9IjAgMCA4OCAyMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgODggMjIiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBmaWxsPSIjRUQxQTNCIiBkPSJNMjAuODA0LDAuNzFjLTMuOTA1LDAtNC42NDksMi4yOTktNS44MTQsMy45NzljMCwwLTMuMTY4LDQuODI1LTQuMzczLDYuNjYyTDguMDE4LDAuNzFoLTYuOTgKCQkJCUw1LjQ0LDE4LjUzM2MwLjkxMiwzLjE4NCwzLjUwNCwyLjk4MSwzLjUwNCwyLjk4MWMxLjc3NSwwLDMuMTA2LTAuOTQxLDQuMzEyLTIuNzIyTDI1LjEzMSwwLjcxCgkJCQlDMjUuMTMxLDAuNzEsMjAuOTc3LDAuNzEsMjAuODA0LDAuNzF6IE02My45NDksMC43MWMtMy45MDUsMC00LjY0OSwyLjI5OS01LjgxNCwzLjk3OWMwLDAtMy4xNjcsNC44MjUtNC4zNzQsNi42NjJMNTEuMTYzLDAuNzEKCQkJCWgtNi45ODFsNC40MDMsMTcuODIzYzAuOTExLDMuMTg0LDMuNTA0LDIuOTgxLDMuNTA0LDIuOTgxYzEuNzc1LDAsMy4xMDUtMC45NDEsNC4zMTItMi43MjJMNjguMjc2LDAuNzEKCQkJCUM2OC4yNzYsMC43MSw2NC4xMjIsMC43MSw2My45NDksMC43MXogTTc3LjE1OSwwLjI2NEM3MC4zMTcsMC4yNjIsNjQuOTQsNS45OTIsNjQuNzI4LDEyLjE3NwoJCQkJYy0wLjE4Nyw1LjQyNiwzLjQ1MSw5LjU2Myw5LjY4OSw5LjU2NGM2Ljg4MSwwLDEyLjI1OC01LjcyOSwxMi40NzEtMTEuOTUyQzg3LjA3Myw0LjQwMSw4My40MzYsMC4yNjUsNzcuMTU5LDAuMjY0egoJCQkJIE03NS4wNjEsMTUuMzljLTIuMDU3LDAtMy40MDUtMS4zNjktMy4zMjctMy41NDZjMC4wODgtMi40NTcsMi4wNjEtNS4yMyw0LjgxOC01LjIzYzIuMDU4LDAsMy40MDUsMS4zNzEsMy4zMjksMy41MTIKCQkJCUM3OS43OTIsMTIuNjE3LDc3LjgxOCwxNS4zOTEsNzUuMDYxLDE1LjM5eiBNMzQuMzE4LDAuMjU5Yy02Ljg0NC0wLjAwMi0xMi4yMTksNS43MjgtMTIuNDMyLDExLjkxMwoJCQkJYy0wLjE4Nyw1LjQyNywzLjQ1Miw5LjU2Myw5LjY4OSw5LjU2NGM0Ljk0NiwwLDkuMTE1LTIuOTYyLDExLjE0OC02LjkzN2wtNy42MDYsMGMtMC44MjUsMC43MDMtMS44MzQsMS4xNDgtMi45NjQsMS4xNDgKCQkJCWMtMS45NTIsMC0zLjMxNi0xLjE3Mi0zLjU4LTMuMDk0bDEzLjA0MSwwLjAwMWMxLjAzMywwLDEuOTk1LTAuMTQ4LDIuMjEyLTEuMjI1YzAuMTIzLTAuNjA3LDAuMTk4LTEuMjIzLDAuMjE5LTEuODQ2CgkJCQlDNDQuMjMyLDQuMzk2LDQwLjU5NCwwLjI2LDM0LjMxOCwwLjI1OXogTTM2LjcwOSw4LjY0NGgtNy4xMzdjMC45My0xLjQ4NiwyLjQxNi0yLjU5Niw0LjIwNS0yLjU5NgoJCQkJYzEuNjIzLDAsMi44MzYsMC44MTMsMy4zNTIsMi4xOEMzNy4yMDMsOC41MTQsMzcuMDIyLDguNjQ0LDM2LjcwOSw4LjY0NHoiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==\""
+        }
+      ],
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "multi assets",
+          "moduleIdentifier": "multi assets",
+          "moduleName": "multi assets",
+          "loc": "",
+          "name": "assets",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 57650,
+      "names": [
+        "component"
+      ],
+      "files": [
+        "component.js"
+      ],
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "multi component",
+          "name": "multi component",
+          "size": 28,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "profile": {
+            "factory": 1
+          },
+          "failed": false,
+          "errors": 24,
+          "warnings": 0,
+          "reasons": []
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "name": "./components/watch-video/watch-video.styl",
+          "size": 1592,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "multi assets",
+          "profile": {
+            "factory": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "multi assets",
+              "module": "multi assets",
+              "moduleName": "multi assets",
+              "type": "single entry",
+              "userRequest": "/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+              "module": "./components/watch-video/watch-video.jsx",
+              "moduleName": "./components/watch-video/watch-video.jsx",
+              "type": "cjs require",
+              "userRequest": "./watch-video.styl",
+              "loc": "5:0-29"
+            }
+          ],
+          "source": "// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = require(\"!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl\");\nif(typeof content === 'string') content = [module.id, content, ''];\n// add the styles to the DOM\nvar update = require(\"!/Users/demi/Projects/react-pellet/node_modules/style-loader/addStyles.js\")(content);\n// Hot Module Replacement\nif(module.hot) {\n\t// When the styles change, update the <style> tags\n\tmodule.hot.accept(\"!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl\", function() {\n\t\tvar newContent = require(\"!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl\");\n\t\tif(typeof newContent === 'string') newContent = [module.id, newContent, ''];\n\t\tupdate(newContent);\n\t});\n\t// When the module is disposed, remove the <style> tags\n\tmodule.hot.dispose(function() { update(); });\n}"
+        },
+        {
+          "id": 4,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "name": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+          "size": 934,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "profile": {
+            "factory": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "module": "./components/watch-video/watch-video.styl",
+              "moduleName": "./components/watch-video/watch-video.styl",
+              "type": "cjs require",
+              "userRequest": "!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "loc": "4:14-325"
+            }
+          ],
+          "source": "exports = module.exports = require(\"/Users/demi/Projects/react-pellet/node_modules/css-loader/cssToString.js\")();\nexports.push([module.id, \".watchVideo-component {\\n  background: #000;\\n  z-index: 10000;\\n  position: fixed;\\n  bottom: 10px;\\n  right: 20px;\\n  width: 300px;\\n  height: 280px;\\n  overflow: hidden;\\n}\\n.watchVideo-component #vevo-player {\\n  width: 300px;\\n  height: 200px;\\n}\\n.watchVideo-component .logo {\\n  width: 100px;\\n  height: 22px;\\n  background: url(\"+require(\"./vevo-header.svg\")+\") no-repeat center;\\n}\\n.watchVideo-component .loading {\\n  color: #fff;\\n  font-size: 28px;\\n  text-align: center;\\n  line-height: 200px;\\n  height: 200px;\\n}\\n.watchVideo-component p {\\n  color: #ccc;\\n  font-family: sans-serif;\\n  padding: 7px;\\n}\\n.watchVideo-component p a {\\n  text-decoration: underline;\\n  color: #6495ed;\\n  cursor: pointer;\\n}\\n.watchVideo-component p a:hover {\\n  text-decoration: none;\\n}\\n\", \"\"]);"
+        },
+        {
+          "id": 5,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+          "name": "./components/watch-video/watch-video.jsx",
+          "size": 2075,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "multi component",
+          "profile": {
+            "factory": 0,
+            "building": 17,
+            "dependencies": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "multi component",
+              "module": "multi component",
+              "moduleName": "multi component",
+              "type": "single entry",
+              "userRequest": "/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx"
+            }
+          ],
+          "source": "/** @jsx React.DOM */\n\nvar React = require('react')\n  , pellet = require('pellet')\nrequire('./watch-video.styl')\n\nif(!SERVER_ENV) {\n  var vevoAPI = require('./data-access-layer');\n  var youtube = require('jsx!react-youtube');\n\n  var watchVideoComponent = React.createClass({displayName: 'watchVideoComponent',\n    getInitialState: function() {\n      var self = this;\n      vevoAPI.getPlaylist('f2e58a00-780d-4904-a1cc-0305f29425bf', function(err, data) {\n        self.setState({videos:data.videos});\n        self.showVideo(0)\n      });\n\n      return {video: null, index:-1, loading: true};\n    },\n\n    showVideo: function(index) {\n      if(!this.state.videos[index]) {index = 0;}\n\n      var self = this;\n      vevoAPI.getVideo(this.state.videos[index].isrc, function(err, data) {\n        console.log('video Data', data);\n        self.setState({video:data, index: index, loading:false});\n      });\n    },\n\n    next: function() {\n      this.showVideo(this.state.index + 1);\n    },\n    render: function() {\n      return (\n        React.DOM.div({className: \"watchVideo-component\"}, \n          this.state.loading?(React.DOM.div({className: \"loading\"}, \"LOADING...\")):youtube({id:\"vevo-player\", url:'https://www.youtube.com/watch?v='+this.state.video.youTubeId, autoplay:1}), \n          React.DOM.div({className: \"logo\"}), \n          React.DOM.p(null, this.state.video && this.state.video.title, \" \", React.DOM.a({onClick: this.next}, \"Next Video (VOTE)\"))\n        )\n      );\n    }\n  });\n\n  (function () {\n    // need to include react, assets, component\n    var embedPlayer = document.createElement(\"div\");\n    document.body.appendChild(embedPlayer);\n    React.renderComponent(watchVideoComponent(), embedPlayer);\n\n  })();\n\n}\n/*\n(function() {\n  function a(u) {var h = document.head || document.getElementsByTagName('head')[0];var s = document.createElement('script');s.type = 'text/javascript';s.charset = 'utf8';s.async = false;s.src = u;h.appendChild(s);}\n  a('//cdnjs.cloudflare.com/ajax/libs/react/0.11.2/react-with-addons.js');\n  a('//localhost:3000/js/component.js');\n})()\n*/"
+        },
+        {
+          "id": 6,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/addStyles.js",
+          "name": "/Users/demi/Projects/react-pellet/~/style-loader/addStyles.js",
+          "size": 3183,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "profile": {
+            "factory": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "module": "./components/watch-video/watch-video.styl",
+              "moduleName": "./components/watch-video/watch-video.styl",
+              "type": "cjs require",
+              "userRequest": "!/Users/demi/Projects/react-pellet/node_modules/style-loader/addStyles.js",
+              "loc": "7:13-97"
+            }
+          ],
+          "source": "/*\r\n\tMIT License http://www.opensource.org/licenses/mit-license.php\r\n\tAuthor Tobias Koppers @sokra\r\n*/\r\nvar stylesInDom = {};\r\n\r\nmodule.exports = function(list) {\r\n\tif(typeof DEBUG !== \"undefined\" && DEBUG) {\r\n\t\tif(typeof document !== \"object\") throw new Error(\"The style-loader cannot be used in a non-browser environment\");\r\n\t}\r\n\tvar styles = listToStyles(list);\r\n\taddStylesToDom(styles);\r\n\treturn function update(newList) {\r\n\t\tvar mayRemove = [];\r\n\t\tfor(var i = 0; i < styles.length; i++) {\r\n\t\t\tvar item = styles[i];\r\n\t\t\tvar domStyle = stylesInDom[item.id];\r\n\t\t\tdomStyle.refs--;\r\n\t\t\tmayRemove.push(domStyle);\r\n\t\t}\r\n\t\tif(newList) {\r\n\t\t\tvar newStyles = listToStyles(newList);\r\n\t\t\taddStylesToDom(newStyles);\r\n\t\t}\r\n\t\tfor(var i = 0; i < mayRemove.length; i++) {\r\n\t\t\tvar domStyle = mayRemove[i];\r\n\t\t\tif(domStyle.refs === 0) {\r\n\t\t\t\tfor(var j = 0; j < domStyle.parts.length; j++)\r\n\t\t\t\t\tdomStyle.parts[j]();\r\n\t\t\t\tdelete stylesInDom[domStyle.id];\r\n\t\t\t}\r\n\t\t}\r\n\t};\r\n}\r\n\r\nfunction addStylesToDom(styles) {\r\n\tfor(var i = 0; i < styles.length; i++) {\r\n\t\tvar item = styles[i];\r\n\t\tvar domStyle = stylesInDom[item.id];\r\n\t\tif(domStyle) {\r\n\t\t\tdomStyle.refs++;\r\n\t\t\tfor(var j = 0; j < domStyle.parts.length; j++) {\r\n\t\t\t\tdomStyle.parts[j](item.parts[j]);\r\n\t\t\t}\r\n\t\t\tfor(; j < item.parts.length; j++) {\r\n\t\t\t\tdomStyle.parts.push(addStyle(item.parts[j]));\r\n\t\t\t}\r\n\t\t} else {\r\n\t\t\tvar parts = [];\r\n\t\t\tfor(var j = 0; j < item.parts.length; j++) {\r\n\t\t\t\tparts.push(addStyle(item.parts[j]));\r\n\t\t\t}\r\n\t\t\tstylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};\r\n\t\t}\r\n\t}\r\n}\r\n\r\nfunction listToStyles(list) {\r\n\tvar styles = [];\r\n\tvar newStyles = {};\r\n\tfor(var i = 0; i < list.length; i++) {\r\n\t\tvar item = list[i];\r\n\t\tvar id = item[0];\r\n\t\tvar css = item[1];\r\n\t\tvar media = item[2];\r\n\t\t// var sourceMap = item[3];\r\n\t\tvar part = {css: css, media: media/*, sourceMap: sourceMap*/};\r\n\t\tif(!newStyles[id])\r\n\t\t\tstyles.push(newStyles[id] = {id: id, parts: [part]});\r\n\t\telse\r\n\t\t\tnewStyles[id].parts.push(part);\r\n\t}\r\n\treturn styles;\r\n}\r\n\r\nfunction addStyle(obj) {\r\n\tvar styleElement = document.createElement(\"style\");\r\n\tvar head = document.head || document.getElementsByTagName(\"head\")[0];\r\n\tstyleElement.type = \"text/css\";\r\n\thead.appendChild(styleElement);\r\n\tapplyToTag(styleElement, obj);\r\n\treturn function(newObj) {\r\n\t\tif(newObj) {\r\n\t\t\tif(newObj.css === obj.css && newObj.media === obj.media /*&& newObj.sourceMap === obj.sourceMap*/)\r\n\t\t\t\treturn;\r\n\t\t\tapplyToTag(styleElement, obj = newObj);\r\n\t\t} else {\r\n\t\t\thead.removeChild(styleElement);\r\n\t\t}\r\n\t};\r\n};\r\n\r\nfunction applyToTag(styleElement, obj) {\r\n\tvar css = obj.css;\r\n\tvar media = obj.media;\r\n\t// var sourceMap = obj.sourceMap;\r\n\r\n\t// No browser support\r\n\t// if(sourceMap && typeof btoa === \"function\") {\r\n\t\t// try {\r\n\t\t\t// css += \"\\n/*# sourceMappingURL=data:application/json;base64,\" + btoa(JSON.stringify(sourceMap)) + \" */\";\r\n\t\t// } catch(e) {}\r\n\t// }\r\n\tif(media) {\r\n\t\tstyleElement.setAttribute(\"media\", media)\r\n\t}\r\n\tif (styleElement.styleSheet) {\r\n\t\tstyleElement.styleSheet.cssText = css;\r\n\t} else {\r\n\t\twhile(styleElement.firstChild) {\r\n\t\t\tstyleElement.removeChild(styleElement.firstChild);\r\n\t\t}\r\n\t\tstyleElement.appendChild(document.createTextNode(css));\r\n\t}\r\n\r\n}\r\n"
+        },
+        {
+          "id": 8,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/cssToString.js",
+          "name": "/Users/demi/Projects/react-pellet/~/css-loader/cssToString.js",
+          "size": 352,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "profile": {
+            "factory": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "module": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+              "moduleName": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+              "type": "cjs require",
+              "userRequest": "/Users/demi/Projects/react-pellet/node_modules/css-loader/cssToString.js",
+              "loc": "1:27-110"
+            }
+          ],
+          "source": "module.exports = function() {\r\n\tvar list = [];\r\n\tlist.toString = function toString() {\r\n\t\tvar result = [];\r\n\t\tfor(var i = 0; i < this.length; i++) {\r\n\t\t\tvar item = this[i];\r\n\t\t\tif(item[2]) {\r\n\t\t\t\tresult.push(\"@media \" + item[2] + \"{\" + item[1] + \"}\");\r\n\t\t\t} else {\r\n\t\t\t\tresult.push(item[1]);\r\n\t\t\t}\r\n\t\t}\r\n\t\treturn result.join(\"\");\r\n\t};\r\n\treturn list;\r\n}"
+        },
+        {
+          "id": 9,
+          "identifier": "/Users/demi/Projects/react-pellet/src/pellet.js",
+          "name": "/Users/demi/Projects/react-pellet/src/pellet.js",
+          "size": 5800,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+          "profile": {
+            "factory": 0,
+            "building": 22
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+              "module": "./components/watch-video/watch-video.jsx",
+              "moduleName": "./components/watch-video/watch-video.jsx",
+              "type": "cjs require",
+              "userRequest": "pellet",
+              "loc": "4:13-30"
+            }
+          ],
+          "source": "var /*director = require('director')\n  , */kefir = require('kefir')\n  , globlePellet;\n\nfunction pellet() {\n  this.readyFnQue = [];\n  this.initFnQue = [];\n\n  this.emitters = {};\n}\n\n\npellet.prototype.getEmitter = function(key, namespace) {\n  if(this.emitters[key]) {\n    return this.emitters[key];\n  }\n\n  var stream = this.emitters[key] = kefir.emitter();\n  stream.onEnd(function() {\n    delete this.emitters[key];\n  });\n\n  return stream;\n}\n\n/**\n * register a function to be called once pellet is ready\n * @param fn\n */\npellet.prototype.onReady = function(fn) {\n  // if all ready running fire immediately with the last know err (or null if no errors)\n  if(typeof(this.readyError) != 'undefined') {\n    setTimeout(function() {\n      fn(module.exports.readyError);\n    }, 1);\n\n    return;\n  }\n\n  this.readyFnQue.push(fn);\n};\n\n/**\n * register a function needed to complete before pellet is ready\n * @param fn\n */\npellet.prototype.registerInitFn = function(fn) {\n  this.initFnQue.push(fn);\n};\n\n/**\n * Called after everyone has register their load functions\n */\npellet.prototype.startInit = function() {\n  if(typeof(this.readyError) != 'undefined') {\n    throw new Error('Can not reinit because pellet is all ready running.');\n  }\n\n  var cbCount = this.initFnQue.length;\n  function done(err) {\n    if(err) {\n      // console log the error and safe the most recent error\n      console.error('Error init pellet because:', err.message);\n      module.exports.readyError = err;\n    }\n\n    if(--cbCount <= 0) {\n      // if all callback had no error set to null\n      if(!module.exports.readyError) {\n        module.exports.readyError = null;\n      }\n\n      var fn;\n      while(fn = module.exports.readyFnQue.pop()) {\n        fn(module.exports.readyError);\n      }\n    }\n  }\n\n  if(cbCount === 0) {\n    done(null);\n    return;\n  }\n\n  // now call all init fn and wait until all done\n  for(var i in this.initFnQue) {\n    this.initFnQue[i](done);\n  }\n};\n\n// for the server environment define the middleware\nif(typeof BROWSER_ENV === 'undefined' || !BROWSER_ENV) {\n  pellet.prototype.middleware = function (req, res, next) {\n    var stream = globlePellet.getEmitter('route:change');\n\n    // if no observers skip route\n    if(!stream._active) {\n      next();\n      return;\n    }\n\n    stream.emit({\n      path: req.path,\n      query: req.query,\n      req: req,\n      res: res,\n      next: next\n    });\n  };\n\n  pellet.prototype.renderServerSide = function() {\n    var markup;\n\n    var ourBodyScripts = '<script src=\"//cdnjs.cloudflare.com/ajax/libs/history.js/1.8/native.history.min.js\"></script>'+\n      '<script src=\"//cdnjs.cloudflare.com/ajax/libs/react/0.11.1/react-with-addons.js\"></script>'+\n      '<script src=\"/js/demo.js\"></script>';\n\n    // for bots only return the markup with out react state and bootstrap call\n    if(/googlebot|gurujibot|twitterbot|yandexbot|slurp|msnbot|bingbot|rogerbot|facebookexternalhit/i.test(message.req.headers['user-agent']||'')) {\n      markup = react.renderComponentToStaticMarkup(layout({body:message.component, meta:message.meta, locales:app.i18n.locales, messages:app.i18n.messages}));\n    } else {\n      markup = react.renderComponentToString(layout({body:message.component, meta:message.meta, locales:app.i18n.locales, messages:app.i18n.messages}));\n\n      if(message.id) {\n        ourBodyScripts += '<script>app.bootstrap(\"'+message.id+'\",'+JSON.stringify(message.props)+','+JSON.stringify(message.meta)+');</script>';\n      }\n    }\n\n    ourBodyScripts += '<!-- Google Analytics: change UA-XXXXX-X to be your site\\'s ID. -->\\n'+\n    '<script>\\n'+\n      '(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=\\n'+\n      'function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;\\n'+\n      'e=o.createElement(i);r=o.getElementsByTagName(i)[0];\\n'+\n      'e.src=\\'//www.google-analytics.com/analytics.js\\';\\n'+\n      'r.parentNode.insertBefore(e,r)}(window,document,\\'script\\',\\'ga\\'));\\n'+\n      'ga(\\'create\\',\\'UA-XXXXX-X\\');ga(\\'send\\',\\'pageview\\');\\n'+\n    '</script>';\n\n    // workaround because react does not support doctype or <!-- -->\n    message.res.status((message.meta && message.meta.status) || 200);\n    message.res.end('<!DOCTYPE html>\\n'+\n      '<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\\n'+\n      '<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\\n'+\n      '<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\\n'+\n      '<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\\n'+\n      '<head>'+\n        '<meta charset=\"utf-8\">'+\n        '<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">'+\n        ((message.meta && message.meta.title) ? '  <title>' + message.meta.title + '</title>' : '') +\n        '<meta name=\"description\" content=\"\">'+\n        '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">'+\n        '<script src=\"//polyfill.io\"></script>'+\n        '<script src=\"/js/demo-assets.js\"></script>'+\n      '</head>'+\n      '<body>'+\n        '<!--[if lt IE 7]>\\n'+\n        '<p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience.</p>\\n'+\n        '<![endif]-->\\n'+\n        '<div id=\"__APP__\">'+\n          markup +\n        '</div>'+\n        ourBodyScripts+\n      '</body>'+\n      '</html>');\n  }\n}\n\n// hack the environment so that we can create a singleton that can be shared\n// between the native nodejs environment and the webpacks container.\nif(typeof BROWSER_ENV !== 'undefined' && BROWSER_ENV) {\n  globlePellet = new pellet();\n} else {\n  if(global.__pelletSingleton) {\n    globlePellet = global.__pelletSingleton;\n  } else {\n    globlePellet = global.__pelletSingleton = new pellet();\n  }\n}\n\nmodule.exports = globlePellet;\n"
+        },
+        {
+          "id": 12,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/kefir/dist/kefir.js",
+          "name": "/Users/demi/Projects/react-pellet/~/kefir/dist/kefir.js",
+          "size": 41195,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/src/pellet.js",
+          "profile": {
+            "factory": 0,
+            "building": 125
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/src/pellet.js",
+              "module": "/Users/demi/Projects/react-pellet/src/pellet.js",
+              "moduleName": "/Users/demi/Projects/react-pellet/src/pellet.js",
+              "type": "cjs require",
+              "userRequest": "kefir",
+              "loc": "2:14-30"
+            }
+          ],
+          "source": "/*! Kefir.js v0.2.6\n *  https://github.com/pozadi/kefir\n */\n;(function(global){\n  \"use strict\";\n\nvar NOTHING = ['<nothing>'];\n\nfunction get(map, key, notFound) {\n  if (map && key in map) {\n    return map[key];\n  } else {\n    return notFound;\n  }\n}\n\nfunction own(obj, prop) {\n  return Object.prototype.hasOwnProperty.call(obj, prop);\n}\n\nfunction createObj(proto) {\n  var F = function() {};\n  F.prototype = proto;\n  return new F();\n}\n\nfunction extend(target /*, mixin1, mixin2...*/) {\n  var length = arguments.length\n    , i, prop;\n  for (i = 1; i < length; i++) {\n    for (prop in arguments[i]) {\n      target[prop] = arguments[i][prop];\n    }\n  }\n  return target;\n}\n\nfunction inherit(Child, Parent /*, mixin1, mixin2...*/) {\n  var length = arguments.length\n    , i;\n  Child.prototype = createObj(Parent.prototype);\n  Child.prototype.constructor = Child;\n  for (i = 2; i < length; i++) {\n    extend(Child.prototype, arguments[i]);\n  }\n  return Child;\n}\n\nfunction agrsToArray(args) {\n  if (args.length === 1 && isArray(args[0])) {\n    return args[0];\n  }\n  return cloneArray(args);\n}\n\nfunction getFn(fn, context) {\n  if (isFn(fn)) {\n    return fn;\n  } else {\n    if (context == null || !isFn(context[fn])) {\n      throw new Error('Not a function: ' + fn + ' in context: ' + context);\n    } else {\n      return context[fn];\n    }\n  }\n}\n\nfunction apply(fn, c, a) {\n  var aLength = a ? a.length : 0;\n  if (c == null) {\n    switch (aLength) {\n      case 0:  return fn();\n      case 1:  return fn(a[0]);\n      case 2:  return fn(a[0], a[1]);\n      case 3:  return fn(a[0], a[1], a[2]);\n      case 4:  return fn(a[0], a[1], a[2], a[3]);\n      default: return fn.apply(null, a);\n    }\n  } else {\n    switch (aLength) {\n      case 0:  return fn.call(c);\n      default: return fn.apply(c, a);\n    }\n  }\n}\n\nfunction bindWithoutContext(fn, a, length) {\n  var a0 = a[0], a1 = a[1], a2 = a[2], a3 = a[3];\n  switch (length) {\n    case 0:\n      switch (a.length) {\n        case 0:  return fn;\n        case 1:  return function() {return fn(a0)}\n        case 2:  return function() {return fn(a0, a1)}\n        case 3:  return function() {return fn(a0, a1, a2)}\n        case 4:  return function() {return fn(a0, a1, a2, a3)}\n        default: return function() {return fn.apply(null, a)}\n      }\n      break;\n    case 1:\n      switch (a.length) {\n        case 0:  return fn;\n        case 1:  return function(b0) {return fn(a0, b0)}\n        case 2:  return function(b0) {return fn(a0, a1, b0)}\n        case 3:  return function(b0) {return fn(a0, a1, a2, b0)}\n        case 4:  return function(b0) {return fn(a0, a1, a2, a3, b0)}\n        default: return function(b0) {return fn.apply(null, concat(a, [b0]))}\n      }\n      break;\n    case 2:\n      switch (a.length) {\n        case 0:  return fn;\n        case 1:  return function(b0, b1) {return fn(a0, b0, b1)}\n        case 2:  return function(b0, b1) {return fn(a0, a1, b0, b1)}\n        case 3:  return function(b0, b1) {return fn(a0, a1, a2, b0, b1)}\n        case 4:  return function(b0, b1) {return fn(a0, a1, a2, a3, b0, b1)}\n        default: return function(b0, b1) {return fn.apply(null, concat(a, [b0, b1]))}\n      }\n      break;\n    default:\n      switch (a.length) {\n        case 0:  return fn;\n        default: return function() {return apply(fn, null, concat(a, arguments))}\n      }\n  }\n}\n\nfunction bindWithContext(fn, c, a, length) {\n  var a0 = a[0], a1 = a[1], a2 = a[2], a3 = a[3];\n  switch (length) {\n    case 0:\n      switch (a.length) {\n        case 0:  return function() {return fn.call(c)}\n        default: return function() {return fn.apply(c, a)}\n      }\n      break;\n    case 1:\n      switch (a.length) {\n        case 0:  return function(b0) {return fn.call(c, b0)}\n        case 1:  return function(b0) {return fn.call(c, a0, b0)}\n        case 2:  return function(b0) {return fn.call(c, a0, a1, b0)}\n        case 3:  return function(b0) {return fn.call(c, a0, a1, a2, b0)}\n        case 4:  return function(b0) {return fn.call(c, a0, a1, a2, a3, b0)}\n        default: return function(b0) {return fn.apply(c, concat(a, [b0]))}\n      }\n      break;\n    case 2:\n      switch (a.length) {\n        case 0:  return function(b0, b1) {return fn.call(c, b0, b1)}\n        case 1:  return function(b0, b1) {return fn.call(c, a0, b0, b1)}\n        case 2:  return function(b0, b1) {return fn.call(c, a0, a1, b0, b1)}\n        case 3:  return function(b0, b1) {return fn.call(c, a0, a1, a2, b0, b1)}\n        case 4:  return function(b0, b1) {return fn.call(c, a0, a1, a2, a3, b0, b1)}\n        default: return function(b0, b1) {return fn.apply(c, concat(a, [b0, b1]))}\n      }\n      break;\n    default:\n      switch (a.length) {\n        case 0: return function() {return fn.apply(c, arguments)}\n        default: return function() {return fn.apply(c, concat(a, arguments))}\n      }\n  }\n}\n\nfunction bind(fn, context, args, boundFunctionLength) {\n  if (context == null) {\n    return bindWithoutContext(fn, args, boundFunctionLength);\n  } else {\n    return bindWithContext(fn, context, args, boundFunctionLength);\n  }\n}\n\nfunction concat(a, b) {\n  var result = new Array(a.length + b.length)\n    , j = 0\n    , length, i;\n  if (a.length === 0) {  return b  }\n  if (b.length === 0) {  return a  }\n  length = a.length;\n  for (i = 0; i < length; i++, j++) {\n    result[j] = a[i];\n  }\n  length = b.length;\n  for (i = 0; i < length; i++, j++) {\n    result[j] = b[i];\n  }\n  return result;\n}\n\nfunction find(arr, value) {\n  var length = arr.length\n    , i;\n  for (i = 0; i < length; i++) {\n    if (arr[i] === value) {  return i  }\n  }\n  return -1;\n}\n\nfunction findByPred(arr, pred) {\n  var length = arr.length\n    , i;\n  for (i = 0; i < length; i++) {\n    if (pred(arr[i])) {  return i  }\n  }\n  return -1;\n}\n\nfunction cloneArray(input) {\n  var length = input.length\n    , result = new Array(length)\n    , i;\n  for (i = 0; i < length; i++) {\n    result[i] = input[i];\n  }\n  return result;\n}\n\nfunction remove(input, index) {\n  var length = input.length\n    , result, i, j;\n  if (index >= 0 && index < length) {\n    if (length === 1) {\n      return [];\n    } else {\n      result = new Array(length - 1);\n      for (i = 0, j = 0; i < length; i++) {\n        if (i !== index) {\n          result[j] = input[i];\n          j++;\n        }\n      }\n      return result;\n    }\n  } else {\n    return input;\n  }\n}\n\nfunction removeByPred(input, pred) {\n  return remove(input, findByPred(input, pred));\n}\n\nfunction map(input, fn) {\n  var length = input.length\n    , result = new Array(length)\n    , i;\n  for (i = 0; i < length; i++) {\n    result[i] = fn(input[i]);\n  }\n  return result;\n}\n\nfunction forEach(arr, fn) {\n  var length = arr.length\n    , i;\n  for (i = 0; i < length; i++) {  fn(arr[i])  }\n}\n\nfunction fillArray(arr, value) {\n  var length = arr.length\n    , i;\n  for (i = 0; i < length; i++) {\n    arr[i] = value;\n  }\n}\n\nfunction contains(arr, value) {\n  return find(arr, value) !== -1;\n}\n\nfunction rest(arr, start, onEmpty) {\n  if (arr.length > start) {\n    return Array.prototype.slice.call(arr, start);\n  }\n  return onEmpty;\n}\n\nvar now = Date.now ?\n  function() { return Date.now() } :\n  function() { return new Date().getTime() };\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isUndefined(x) {\n  return typeof x === 'undefined';\n}\n\nfunction isArrayLike(xs) {\n  return isArray(xs) || isArguments(xs);\n}\n\nvar isArray = Array.isArray || function(xs) {\n  return Object.prototype.toString.call(xs) === '[object Array]';\n}\n\nvar isArguments = function(xs) {\n  return Object.prototype.toString.call(xs) === '[object Arguments]';\n}\n\n// For IE\nif (!isArguments(arguments)) {\n  isArguments = function(obj) {\n    return !!(obj && own(obj, 'callee'));\n  }\n}\n\nfunction isEqualArrays(a, b) {\n  var length, i;\n  if (a == null && b == null) {\n    return true;\n  }\n  if (a == null || b == null) {\n    return false;\n  }\n  if (a.length !== b.length) {\n    return false;\n  }\n  for (i = 0, length = a.length; i < length; i++) {\n    if (a[i] !== b[i]) {\n      return false;\n    }\n  }\n  return true;\n}\n\nfunction and() {\n  for (var i = 0; i < arguments.length; i++) {\n    if (!arguments[i]) {\n      return arguments[i];\n    }\n  }\n  return arguments[i - 1];\n}\n\nfunction or() {\n  for (var i = 0; i < arguments.length; i++) {\n    if (arguments[i]) {\n      return arguments[i];\n    }\n  }\n  return arguments[i - 1];\n}\n\nfunction withInterval(name, mixin) {\n\n  function AnonymousStream(wait, args) {\n    Stream.call(this);\n    this._wait = wait;\n    this._intervalId = null;\n    var $ = this;\n    this._$onTick = function() {  $._onTick()  }\n    this._init(args);\n  }\n\n  inherit(AnonymousStream, Stream, {\n\n    _name: name,\n\n    _init: function(args) {},\n    _free: function() {},\n\n    _onTick: function() {},\n\n    _onActivation: function() {\n      this._intervalId = setInterval(this._$onTick, this._wait);\n    },\n    _onDeactivation: function() {\n      if (this._intervalId !== null) {\n        clearInterval(this._intervalId);\n        this._intervalId = null;\n      }\n    },\n\n    _clear: function() {\n      Stream.prototype._clear.call(this);\n      this._$onTick = null;\n      this._free();\n    }\n\n  }, mixin);\n\n  Kefir[name] = function(wait) {\n    return new AnonymousStream(wait, rest(arguments, 1, []));\n  }\n}\n\nfunction withOneSource(name, mixin, options) {\n\n\n  options = extend({\n    streamMethod: function(StreamClass, PropertyClass) {\n      return function() {  return new StreamClass(this, arguments)  }\n    },\n    propertyMethod: function(StreamClass, PropertyClass) {\n      return function() {  return new PropertyClass(this, arguments)  }\n    }\n  }, options || {});\n\n\n\n  mixin = extend({\n    _init: function(args) {},\n    _free: function() {},\n\n    _handleValue: function(x, isCurrent) {  this._send('value', x, isCurrent)  },\n    _handleEnd: function(__, isCurrent) {  this._send('end', null, isCurrent)  },\n\n    _onActivationHook: function() {},\n    _onDeactivationHook: function() {},\n\n    _handleAny: function(event) {\n      switch (event.type) {\n        case 'value': this._handleValue(event.value, event.current); break;\n        case 'end': this._handleEnd(event.value, event.current); break;\n      }\n    },\n\n    _onActivation: function() {\n      this._onActivationHook();\n      this._source.onAny([this._handleAny, this]);\n    },\n    _onDeactivation: function() {\n      this._onDeactivationHook();\n      this._source.offAny([this._handleAny, this]);\n    }\n  }, mixin || {});\n\n\n\n  function buildClass(BaseClass) {\n    function AnonymousObservable(source, args) {\n      BaseClass.call(this);\n      this._source = source;\n      this._name = source._name + '.' + name;\n      this._init(args);\n    }\n\n    inherit(AnonymousObservable, BaseClass, {\n      _clear: function() {\n        BaseClass.prototype._clear.call(this);\n        this._source = null;\n        this._free();\n      }\n    }, mixin);\n\n    return AnonymousObservable;\n  }\n\n\n  var AnonymousStream = buildClass(Stream);\n  var AnonymousProperty = buildClass(Property);\n\n  if (options.streamMethod) {\n    Stream.prototype[name] = options.streamMethod(AnonymousStream, AnonymousProperty);\n  }\n\n  if (options.propertyMethod) {\n    Property.prototype[name] = options.propertyMethod(AnonymousStream, AnonymousProperty);\n  }\n\n}\n\n\n\nvar Kefir = {};\n\n\n\n\n// Fn\n\nfunction normFnMeta(fnMeta) {\n  if (fnMeta instanceof _Fn) {\n    return fnMeta;\n  } else {\n    if (isFn(fnMeta)) {\n      return {\n        fn: fnMeta,\n        context: null,\n        args: []\n      };\n    } else {\n      if (isArrayLike(fnMeta)) {\n        return {\n          fn: getFn(fnMeta[0], fnMeta[1]),\n          context: (fnMeta[1] == null ? null : fnMeta[1]),\n          args: rest(fnMeta, 2, [])\n        };\n      } else {\n        throw new Error('Object isn\\'t a function, and can\\'t be converted to it: ' + fnMeta);\n      }\n    }\n  }\n}\n\nfunction applyFnMeta(fnMeta, args) {\n  fnMeta = normFnMeta(fnMeta);\n  return apply(fnMeta.fn, fnMeta.context, concat(fnMeta.args, args));\n}\n\nfunction _Fn(fnMeta, length) {\n  this.context = fnMeta.context;\n  this.fn = fnMeta.fn;\n  this.args = fnMeta.args;\n  this.invoke = bind(this.fn, this.context, this.args, length);\n}\n\n_Fn.prototype.apply = function(args) {\n  return apply(this.invoke, null, args);\n}\n\n_Fn.prototype.applyWithContext = function(context, args) {\n  if (this.context === null) {\n    return apply(this.fn, context, concat(this.args, args));\n  } else {\n    return this.apply(args);\n  }\n}\n\nfunction Fn(fnMeta, length) {\n  if (fnMeta instanceof _Fn) {\n    return fnMeta;\n  } else {\n    return new _Fn(normFnMeta(fnMeta), length == null ? 100 : length);\n  }\n}\n\nFn.isEqual = function(a, b) {\n  if (a === b) {\n    return true;\n  }\n  a = Fn(a, null, true);\n  b = Fn(b, null, true);\n  return a.fn === b.fn &&\n    a.context === b.context &&\n    isEqualArrays(a.args, b.args);\n}\n\nKefir.Fn = Fn;\n\n\n\n\n\n// Subscribers\n\nfunction Subscribers() {\n  this._fns = [];\n}\n\nextend(Subscribers, {\n  callOne: function(fn, event) {\n    if (fn.type === 'any') {\n      fn.invoke(event);\n    } else if (fn.type === event.type) {\n      if (fn.type === 'value') {\n        fn.invoke(event.value);\n      } else {\n        fn.invoke();\n      }\n    }\n  },\n  callOnce: function(type, fnMeta, event) {\n    if (type === 'any') {\n      applyFnMeta(fnMeta, [event]);\n    } else if (type === event.type) {\n      if (type === 'value') {\n        applyFnMeta(fnMeta, [event.value]);\n      } else {\n        applyFnMeta(fnMeta, []);\n      }\n    }\n  }\n});\n\nextend(Subscribers.prototype, {\n  add: function(type, fn) {\n    fn = Fn(fn, type === 'end' ? 0 : 1);\n    fn.type = type;\n    this._fns = concat(this._fns, [fn]);\n  },\n  remove: function(type, fn) {\n    fn = Fn(fn);\n    this._fns = removeByPred(this._fns, function(x) {\n      return x.type === type && Fn.isEqual(x, fn);\n    });\n  },\n  callAll: function(event) {\n    var fns = this._fns;\n    for (var i = 0; i < fns.length; i++) {\n      Subscribers.callOne(fns[i], event);\n    }\n  },\n  isEmpty: function() {\n    return this._fns.length === 0;\n  }\n});\n\n\n\n\n\n// Events\n\nfunction Event(type, value, current) {\n  return {type: type, value: value, current: !!current};\n}\n\nvar CURRENT_END = Event('end', undefined, true);\n\n\n\n\n\n// Observable\n\nfunction Observable() {\n  this._subscribers = new Subscribers();\n  this._active = false;\n  this._alive = true;\n}\nKefir.Observable = Observable;\n\nextend(Observable.prototype, {\n\n  _name: 'observable',\n\n  _onActivation: function() {},\n  _onDeactivation: function() {},\n\n  _setActive: function(active) {\n    if (this._active !== active) {\n      this._active = active;\n      if (active) {\n        this._onActivation();\n      } else {\n        this._onDeactivation();\n      }\n    }\n  },\n\n  _clear: function() {\n    this._setActive(false);\n    this._alive = false;\n    this._subscribers = null;\n  },\n\n  _send: function(type, x, isCurrent) {\n    if (this._alive) {\n      this._subscribers.callAll(Event(type, x, isCurrent));\n      if (type === 'end') {  this._clear()  }\n    }\n  },\n\n  on: function(type, fn) {\n    if (this._alive) {\n      this._subscribers.add(type, fn);\n      this._setActive(true);\n    } else {\n      Subscribers.callOnce(type, fn, CURRENT_END);\n    }\n    return this;\n  },\n\n  off: function(type, fn) {\n    if (this._alive) {\n      this._subscribers.remove(type, fn);\n      if (this._subscribers.isEmpty()) {\n        this._setActive(false);\n      }\n    }\n    return this;\n  },\n\n  onValue:  function(fn) {  return this.on('value', fn)   },\n  onEnd:    function(fn) {  return this.on('end', fn)     },\n  onAny:    function(fn) {  return this.on('any', fn)     },\n\n  offValue: function(fn) {  return this.off('value', fn)  },\n  offEnd:   function(fn) {  return this.off('end', fn)    },\n  offAny:   function(fn) {  return this.off('any', fn)    }\n\n});\n\n\n// extend() can't handle `toString` in IE8\nObservable.prototype.toString = function() {  return '[' + this._name + ']'  };\n\n\n\n\n\n\n\n\n\n// Stream\n\nfunction Stream() {\n  Observable.call(this);\n}\nKefir.Stream = Stream;\n\ninherit(Stream, Observable, {\n\n  _name: 'stream'\n\n});\n\n\n\n\n\n\n\n// Property\n\nfunction Property() {\n  Observable.call(this);\n  this._current = NOTHING;\n}\nKefir.Property = Property;\n\ninherit(Property, Observable, {\n\n  _name: 'property',\n\n  _send: function(type, x, isCurrent) {\n    if (this._alive) {\n      if (!isCurrent) {\n        this._subscribers.callAll(Event(type, x));\n      }\n      if (type === 'value') {  this._current = x  }\n      if (type === 'end') {  this._clear()  }\n    }\n  },\n\n  on: function(type, fn) {\n    if (this._alive) {\n      this._subscribers.add(type, fn);\n      this._setActive(true);\n    }\n    if (this._current !== NOTHING) {\n      Subscribers.callOnce(type, fn, Event('value', this._current, true));\n    }\n    if (!this._alive) {\n      Subscribers.callOnce(type, fn, CURRENT_END);\n    }\n    return this;\n  }\n\n});\n\n\n\n\n\n\n// Log\n\nfunction logCb(name, event) {\n  var typeStr = '<' + event.type + (event.current ? ':current' : '') + '>';\n  if (event.type === 'value') {\n    console.log(name, typeStr, event.value);\n  } else {\n    console.log(name, typeStr);\n  }\n}\n\nObservable.prototype.log = function(name) {\n  this.onAny([logCb, null, name || this.toString()]);\n  return this;\n}\n\nObservable.prototype.offLog = function(name) {\n  this.offAny([logCb, null, name || this.toString()]);\n  return this;\n}\n\n\n\n// Kefir.withInterval()\n\nwithInterval('withInterval', {\n  _init: function(args) {\n    this._fn = Fn(args[0], 1);\n    var $ = this;\n    this._emitter = {\n      emit: function(x) {  $._send('value', x)  },\n      end: function() {  $._send('end')  }\n    }\n  },\n  _free: function() {\n    this._fn = null;\n    this._emitter = null;\n  },\n  _onTick: function() {\n    this._fn.invoke(this._emitter);\n  }\n});\n\n\n\n\n\n// Kefir.fromPoll()\n\nwithInterval('fromPoll', {\n  _init: function(args) {\n    this._fn = Fn(args[0], 0);\n  },\n  _free: function() {\n    this._fn = null;\n  },\n  _onTick: function() {\n    this._send('value', this._fn.invoke());\n  }\n});\n\n\n\n\n\n// Kefir.interval()\n\nwithInterval('interval', {\n  _init: function(args) {\n    this._x = args[0];\n  },\n  _free: function() {\n    this._x = null;\n  },\n  _onTick: function() {\n    this._send('value', this._x);\n  }\n});\n\n\n\n\n// Kefir.sequentially()\n\nwithInterval('sequentially', {\n  _init: function(args) {\n    this._xs = cloneArray(args[0]);\n    if (this._xs.length === 0) {\n      this._send('end')\n    }\n  },\n  _free: function() {\n    this._xs = null;\n  },\n  _onTick: function() {\n    switch (this._xs.length) {\n      case 1:\n        this._send('value', this._xs[0]);\n        this._send('end');\n        break;\n      default:\n        this._send('value', this._xs.shift());\n    }\n  }\n});\n\n\n\n\n// Kefir.repeatedly()\n\nwithInterval('repeatedly', {\n  _init: function(args) {\n    this._xs = cloneArray(args[0]);\n    this._i = -1;\n  },\n  _onTick: function() {\n    if (this._xs.length > 0) {\n      this._i = (this._i + 1) % this._xs.length;\n      this._send('value', this._xs[this._i]);\n    }\n  }\n});\n\n\n\n\n\n// Kefir.later()\n\nwithInterval('later', {\n  _init: function(args) {\n    this._x = args[0];\n  },\n  _free: function() {\n    this._x = null;\n  },\n  _onTick: function() {\n    this._send('value', this._x);\n    this._send('end');\n  }\n});\n\nfunction _AbstractPool(options) {\n  Stream.call(this);\n\n  this._queueLim = get(options, 'queueLim', 0);    // -1...∞\n  this._concurLim = get(options, 'concurLim', -1); // -1, 1...∞\n  this._drop = get(options, 'drop', 'new');        // old, new\n  if (this._concurLim === 0) {\n    throw new Error('options.concurLim can\\'t be 0');\n  }\n\n  this._queue = [];\n  this._curSources = [];\n  this._activating = false;\n}\n\ninherit(_AbstractPool, Stream, {\n\n  _name: 'abstractPool',\n\n  _add: function(obs) {\n    if (this._concurLim === -1 || this._curSources.length < this._concurLim) {\n      this._addToCur(obs);\n    } else {\n      if (this._queueLim === -1 || this._queue.length < this._queueLim) {\n        this._addToQueue(obs);\n      } else if (this._drop === 'old') {\n        this._removeOldest();\n        this._add(obs);\n      }\n    }\n  },\n  _addAll: function(obss) {\n    var $ = this;\n    forEach(obss, function(obs) {  $._add(obs)  });\n  },\n  _remove: function(obs) {\n    if (this._removeCur(obs) === -1) {\n      this._removeQueue(obs);\n    }\n  },\n\n  _addToQueue: function(obs) {\n    this._queue = concat(this._queue, [obs]);\n  },\n  _addToCur: function(obs) {\n    this._curSources = concat(this._curSources, [obs]);\n    if (this._active) {  this._sub(obs)  }\n  },\n  _sub: function(obs) {\n    obs.onAny([this._handleSubAny, this]);\n    obs.onEnd([this._removeCur, this, obs]);\n  },\n  _unsub: function(obs) {\n    obs.offAny([this._handleSubAny, this]);\n    obs.offEnd([this._removeCur, this, obs]);\n  },\n  _handleSubAny: function(event) {\n    if (event.type === 'value') {\n      this._send('value', event.value, event.current && this._activating);\n    }\n  },\n\n  _removeQueue: function(obs) {\n    var index = find(this._queue, obs);\n    this._queue = remove(this._queue, index);\n    return index;\n  },\n  _removeCur: function(obs) {\n    if (this._active) {  this._unsub(obs)  }\n    var index = find(this._curSources, obs);\n    this._curSources = remove(this._curSources, index);\n    if (index !== -1) {\n      if (this._queue.length !== 0) {\n        this._pullQueue();\n      } else if (this._curSources.length === 0) {\n        this._onEmpty();\n      }\n    }\n    return index;\n  },\n  _removeOldest: function() {\n    this._removeCur(this._curSources[0]);\n  },\n\n  _pullQueue: function() {\n    if (this._queue.length !== 0) {\n      this._queue = cloneArray(this._queue);\n      this._addToCur(this._queue.shift());\n    }\n  },\n\n  _onActivation: function() {\n    var sources = this._curSources\n      , i;\n    this._activating = true;\n    for (i = 0; i < sources.length; i++) {  this._sub(sources[i])  }\n    this._activating = false;\n  },\n  _onDeactivation: function() {\n    var sources = this._curSources\n      , i;\n    for (i = 0; i < sources.length; i++) {  this._unsub(sources[i])  }\n  },\n\n  _isEmpty: function() {  return this._curSources.length === 0  },\n  _onEmpty: function() {},\n\n  _clear: function() {\n    Stream.prototype._clear.call(this);\n    this._queue = null;\n    this._curSources = null;\n  }\n\n});\n\n\n\n\n\n// .merge()\n\nvar MergeLike = {\n  _onEmpty: function() {\n    if (this._initialised) {  this._send('end', null, this._activating)  }\n  }\n};\n\nfunction Merge(sources) {\n  _AbstractPool.call(this);\n  if (sources.length === 0) {  this._send('end')  } else {  this._addAll(sources)  }\n  this._initialised = true;\n}\n\ninherit(Merge, _AbstractPool, extend({_name: 'merge'}, MergeLike));\n\nKefir.merge = function() {\n  return new Merge(agrsToArray(arguments));\n}\n\nObservable.prototype.merge = function(other) {\n  return Kefir.merge([this, other]);\n}\n\n\n\n\n// .concat()\n\nfunction Concat(sources) {\n  _AbstractPool.call(this, {concurLim: 1, queueLim: -1});\n  if (sources.length === 0) {  this._send('end')  } else {  this._addAll(sources)  }\n  this._initialised = true;\n}\n\ninherit(Concat, _AbstractPool, extend({_name: 'concat'}, MergeLike));\n\nKefir.concat = function() {\n  return new Concat(agrsToArray(arguments));\n}\n\nObservable.prototype.concat = function(other) {\n  return Kefir.concat([this, other]);\n}\n\n\n\n\n\n\n// .pool()\n\nfunction Pool() {\n  _AbstractPool.call(this);\n}\n\ninherit(Pool, _AbstractPool, {\n\n  _name: 'pool',\n\n  add: function(obs) {\n    this._add(obs);\n    return this;\n  },\n  remove: function(obs) {\n    this._remove(obs);\n    return this;\n  }\n\n});\n\nKefir.pool = function() {\n  return new Pool();\n}\n\n\n\n\n\n// .flatMap()\n\nfunction FlatMap(source, fn, options) {\n  _AbstractPool.call(this, options);\n  this._source = source;\n  this._fn = fn ? Fn(fn, 1) : null;\n  this._mainEnded = false;\n  this._lastCurrent = null;\n}\n\ninherit(FlatMap, _AbstractPool, {\n\n  _onActivation: function() {\n    _AbstractPool.prototype._onActivation.call(this);\n    this._activating = true;\n    this._source.onAny([this._handleMainSource, this]);\n    this._activating = false;\n  },\n  _onDeactivation: function() {\n    _AbstractPool.prototype._onDeactivation.call(this);\n    this._source.offAny([this._handleMainSource, this]);\n  },\n\n  _handleMainSource: function(event) {\n    if (event.type === 'value') {\n      if (!event.current || this._lastCurrent !== event.value) {\n        this._add(this._fn ? this._fn.invoke(event.value) : event.value);\n      }\n      this._lastCurrent = event.value;\n    } else {\n      if (this._isEmpty()) {\n        this._send('end', null, event.current);\n      } else {\n        this._mainEnded = true;\n      }\n    }\n  },\n\n  _onEmpty: function() {\n    if (this._mainEnded) {  this._send('end')  }\n  },\n\n  _clear: function() {\n    _AbstractPool.prototype._clear.call(this);\n    this._source = null;\n    this._lastCurrent = null;\n  }\n\n});\n\nObservable.prototype.flatMap = function(fn) {\n  return new FlatMap(this, fn)\n    .setName(this, 'flatMap');\n}\n\nObservable.prototype.flatMapLatest = function(fn) {\n  return new FlatMap(this, fn, {concurLim: 1, drop: 'old'})\n    .setName(this, 'flatMapLatest');\n}\n\nObservable.prototype.flatMapFirst = function(fn) {\n  return new FlatMap(this, fn, {concurLim: 1})\n    .setName(this, 'flatMapFirst');\n}\n\nObservable.prototype.flatMapConcat = function(fn) {\n  return new FlatMap(this, fn, {queueLim: -1, concurLim: 1})\n    .setName(this, 'flatMapConcat');\n}\n\nObservable.prototype.flatMapWithConcurrencyLimit = function(fn, limit) {\n  var result;\n  if (limit === 0) {\n    result = Kefir.never();\n  } else {\n    if (limit < 0) {  limit = -1  }\n    result = new FlatMap(this, fn, {queueLim: -1, concurLim: limit});\n  }\n  return result.setName(this, 'flatMapWithConcurrencyLimit');\n}\n\n\n\n\n\n// .sampledBy()\n\nfunction SampledBy(passive, active, combinator) {\n  Stream.call(this);\n  if (active.length === 0) {\n    this._send('end');\n  } else {\n    this._passiveCount = passive.length;\n    this._combinator = combinator ? Fn(combinator) : null;\n    this._sources = concat(passive, active);\n    this._aliveCount = 0;\n    this._currents = new Array(this._sources.length);\n    fillArray(this._currents, NOTHING);\n    this._activating = false;\n    this._emitAfterActivation = false;\n    this._endAfterActivation = false;\n  }\n}\n\ninherit(SampledBy, Stream, {\n\n  _name: 'sampledBy',\n\n  _onActivation: function() {\n    var length = this._sources.length,\n        i;\n    this._aliveCount = length - this._passiveCount;\n    this._activating = true;\n    for (i = 0; i < length; i++) {\n      this._sources[i].onAny([this._handleAny, this, i]);\n    }\n    this._activating = false;\n    if (this._emitAfterActivation) {\n      this._emitAfterActivation = false;\n      this._emitIfFull(true);\n    }\n    if (this._endAfterActivation) {\n      this._send('end', null, true);\n    }\n  },\n\n  _onDeactivation: function() {\n    var length = this._sources.length,\n        i;\n    for (i = 0; i < length; i++) {\n      this._sources[i].offAny([this._handleAny, this, i]);\n    }\n  },\n\n  _emitIfFull: function(isCurrent) {\n    if (!contains(this._currents, NOTHING)) {\n      var combined = cloneArray(this._currents);\n      if (this._combinator) {\n        combined = this._combinator.apply(this._currents);\n      }\n      this._send('value', combined, isCurrent);\n    }\n  },\n\n  _handleAny: function(i, event) {\n    if (event.type === 'value') {\n      this._currents[i] = event.value;\n      if (i >= this._passiveCount) {\n        if (this._activating) {\n          this._emitAfterActivation = true;\n        } else {\n          this._emitIfFull(event.current);\n        }\n      }\n    } else {\n      if (i >= this._passiveCount) {\n        this._aliveCount--;\n        if (this._aliveCount === 0) {\n          if (this._activating) {\n            this._endAfterActivation = true;\n          } else {\n            this._send('end', null, event.current);\n          }\n        }\n      }\n    }\n  },\n\n  _clear: function() {\n    Stream.prototype._clear.call(this);\n    this._sources = null;\n    this._currents = null;\n  }\n\n});\n\nKefir.sampledBy = function(passive, active, combinator) {\n  return new SampledBy(passive, active, combinator);\n}\n\nObservable.prototype.sampledBy = function(other, combinator) {\n  return Kefir.sampledBy([this], [other], combinator);\n}\n\n\n\n\n// .combine()\n\nKefir.combine = function(sources, combinator) {\n  var result = new SampledBy([], sources, combinator);\n  result._name = 'combine';\n  return result;\n}\n\nObservable.prototype.combine = function(other, combinator) {\n  return Kefir.combine([this, other], combinator);\n}\n\nfunction produceStream(StreamClass, PropertyClass) {\n  return function() {  return new StreamClass(this, arguments)  }\n}\nfunction produceProperty(StreamClass, PropertyClass) {\n  return function() {  return new PropertyClass(this, arguments)  }\n}\n\n\n\n// .toProperty()\n\nwithOneSource('toProperty', {\n  _init: function(args) {\n    if (args.length > 0) {\n      this._send('value', args[0]);\n    }\n  }\n}, {propertyMethod: null, streamMethod: produceProperty});\n\n\n\n\n// .changes()\n\nwithOneSource('changes', {\n  _handleValue: function(x, isCurrent) {\n    if (!isCurrent) {\n      this._send('value', x);\n    }\n  }\n}, {streamMethod: null, propertyMethod: produceStream});\n\n\n\n\n// .withHandler()\n\nwithOneSource('withHandler', {\n  _init: function(args) {\n    this._handler = Fn(args[0], 2);\n    this._forcedCurrent = false;\n    var $ = this;\n    this._emitter = {\n      emit: function(x) {  $._send('value', x, $._forcedCurrent)  },\n      end: function() {  $._send('end', null, $._forcedCurrent)  }\n    }\n  },\n  _free: function() {\n    this._handler = null;\n    this._emitter = null;\n  },\n  _handleAny: function(event) {\n    this._forcedCurrent = event.current;\n    this._handler.invoke(this._emitter, event);\n    this._forcedCurrent = false;\n  }\n});\n\n\n\n\nvar withFnArgMixin = {\n  _init: function(args) {  this._fn = Fn(args[0], 1)  },\n  _free: function() {  this._fn = null  }\n};\n\n\n// .map(fn)\n\nwithOneSource('map', extend({\n  _handleValue: function(x, isCurrent) {\n    this._send('value', this._fn.invoke(x), isCurrent);\n  }\n}, withFnArgMixin));\n\n\n\n\n\n// .filter(fn)\n\nwithOneSource('filter', extend({\n  _handleValue: function(x, isCurrent) {\n    if (this._fn.invoke(x)) {\n      this._send('value', x, isCurrent);\n    }\n  }\n}, withFnArgMixin));\n\n\n\n\n\n// .takeWhile(fn)\n\nwithOneSource('takeWhile', extend({\n  _handleValue: function(x, isCurrent) {\n    if (this._fn.invoke(x)) {\n      this._send('value', x, isCurrent);\n    } else {\n      this._send('end', null, isCurrent);\n    }\n  }\n}, withFnArgMixin));\n\n\n\n\n\n// .take(n)\n\nwithOneSource('take', {\n  _init: function(args) {\n    this._n = args[0];\n    if (this._n <= 0) {\n      this._send('end');\n    }\n  },\n  _handleValue: function(x, isCurrent) {\n    this._n--;\n    this._send('value', x, isCurrent);\n    if (this._n === 0) {\n      this._send('end');\n    }\n  }\n});\n\n\n\n\n\n// .skip(n)\n\nwithOneSource('skip', {\n  _init: function(args) {\n    this._n = args[0] < 0 ? 0 : args[0];\n  },\n  _handleValue: function(x, isCurrent) {\n    if (this._n === 0) {\n      this._send('value', x, isCurrent);\n    } else {\n      this._n--;\n    }\n  }\n});\n\n\n\n\n// .skipDuplicates([fn])\n\nwithOneSource('skipDuplicates', {\n  _init: function(args) {\n    this._fn = args[0] && Fn(args[0], 2);\n    this._prev = NOTHING;\n  },\n  _free: function() {\n    this._fn = null;\n    this._prev = null;\n  },\n  _isEqual: function(a, b) {\n    return this._fn ? this._fn.invoke(a, b) : a === b;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (this._prev === NOTHING || !this._isEqual(this._prev, x)) {\n      this._send('value', x, isCurrent);\n      this._prev = x;\n    }\n  }\n});\n\n\n\n\n\n// .skipWhile(fn)\n\nwithOneSource('skipWhile', {\n  _init: function(args) {\n    this._fn = Fn(args[0], 1);\n    this._skip = true;\n  },\n  _free: function() {\n    this._fn = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (!this._skip) {\n      this._send('value', x, isCurrent);\n      return;\n    }\n    if (!this._fn.invoke(x)) {\n      this._skip = false;\n      this._fn = null;\n      this._send('value', x, isCurrent);\n    }\n  }\n});\n\n\n\n\n\n// .diff(seed, fn)\n\nwithOneSource('diff', {\n  _init: function(args) {\n    this._prev = args[0];\n    this._fn = Fn(args[1], 2);\n  },\n  _free: function() {\n    this._prev = null;\n    this._fn = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    this._send('value', this._fn.invoke(this._prev, x), isCurrent);\n    this._prev = x;\n  }\n});\n\n\n\n\n\n// .scan(seed, fn)\n\nwithOneSource('scan', {\n  _init: function(args) {\n    this._send('value', args[0], true);\n    this._fn = Fn(args[1], 2);\n  },\n  _free: function() {\n    this._fn = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    this._send('value', this._fn.invoke(this._current, x), isCurrent);\n  }\n}, {streamMethod: produceProperty});\n\n\n\n\n\n// .reduce(seed, fn)\n\nwithOneSource('reduce', {\n  _init: function(args) {\n    this._result = args[0];\n    this._fn = Fn(args[1], 2);\n  },\n  _free: function(){\n    this._fn = null;\n    this._result = null;\n  },\n  _handleValue: function(x) {\n    this._result = this._fn.invoke(this._result, x);\n  },\n  _handleEnd: function(__, isCurrent) {\n    this._send('value', this._result, isCurrent);\n    this._send('end', null, isCurrent);\n  }\n});\n\n\n\n\n\n// .debounce(wait, {immediate})\n\nwithOneSource('debounce', {\n  _init: function(args) {\n    this._wait = Math.max(0, args[0]);\n    this._immediate = get(args[1], 'immediate', false);\n    this._lastAttempt = 0;\n    this._timeoutId = null;\n    this._laterValue = null;\n    this._endLater = false;\n    var $ = this;\n    this._$later = function() {  $._later()  };\n  },\n  _free: function() {\n    this._laterValue = null;\n    this._$later = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (isCurrent) {\n      this._send('value', x, isCurrent);\n    } else {\n      this._lastAttempt = now();\n      if (this._immediate && !this._timeoutId) {\n        this._send('value', x);\n      }\n      if (!this._timeoutId) {\n        this._timeoutId = setTimeout(this._$later, this._wait);\n      }\n      if (!this._immediate) {\n        this._laterValue = x;\n      }\n    }\n  },\n  _handleEnd: function(__, isCurrent) {\n    if (isCurrent) {\n      this._send('end', null, isCurrent);\n    } else {\n      if (this._timeoutId && !this._immediate) {\n        this._endLater = true;\n      } else {\n        this._send('end');\n      }\n    }\n  },\n  _later: function() {\n    var last = now() - this._lastAttempt;\n    if (last < this._wait && last >= 0) {\n      this._timeoutId = setTimeout(this._$later, this._wait - last);\n    } else {\n      this._timeoutId = null;\n      if (!this._immediate) {\n        this._send('value', this._laterValue);\n        this._laterValue = null;\n      }\n      if (this._endLater) {\n        this._send('end');\n      }\n    }\n  }\n});\n\n\n\n\n\n// .throttle(wait, {leading, trailing})\n\nwithOneSource('throttle', {\n  _init: function(args) {\n    this._wait = Math.max(0, args[0]);\n    this._leading = get(args[1], 'leading', true);\n    this._trailing = get(args[1], 'trailing', true);\n    this._trailingValue = null;\n    this._timeoutId = null;\n    this._endLater = false;\n    this._lastCallTime = 0;\n    var $ = this;\n    this._$trailingCall = function() {  $._trailingCall()  };\n  },\n  _free: function() {\n    this._trailingValue = null;\n    this._$trailingCall = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (isCurrent) {\n      this._send('value', x, isCurrent);\n    } else {\n      var curTime = now();\n      if (this._lastCallTime === 0 && !this._leading) {\n        this._lastCallTime = curTime;\n      }\n      var remaining = this._wait - (curTime - this._lastCallTime);\n      if (remaining <= 0) {\n        this._cancelTraling();\n        this._lastCallTime = curTime;\n        this._send('value', x);\n      } else if (this._trailing) {\n        this._cancelTraling();\n        this._trailingValue = x;\n        this._timeoutId = setTimeout(this._$trailingCall, remaining);\n      }\n    }\n  },\n  _handleEnd: function(__, isCurrent) {\n    if (isCurrent) {\n      this._send('end', null, isCurrent);\n    } else {\n      if (this._timeoutId) {\n        this._endLater = true;\n      } else {\n        this._send('end');\n      }\n    }\n  },\n  _cancelTraling: function() {\n    if (this._timeoutId !== null) {\n      clearTimeout(this._timeoutId);\n      this._timeoutId = null;\n    }\n  },\n  _trailingCall: function() {\n    this._send('value', this._trailingValue);\n    this._timeoutId = null;\n    this._trailingValue = null;\n    this._lastCallTime = !this._leading ? 0 : now();\n    if (this._endLater) {\n      this._send('end');\n    }\n  }\n});\n\n\n\n\n\n// .delay()\n\nwithOneSource('delay', {\n  _init: function(args) {\n    this._wait = Math.max(0, args[0]);\n    this._buff = [];\n    var $ = this;\n    this._$shiftBuff = function() {  $._send('value', $._buff.shift())  }\n  },\n  _free: function() {\n    this._buff = null;\n    this._$shiftBuff = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (isCurrent) {\n      this._send('value', x, isCurrent);\n    } else {\n      this._buff.push(x);\n      setTimeout(this._$shiftBuff, this._wait);\n    }\n  },\n  _handleEnd: function(__, isCurrent) {\n    if (isCurrent) {\n      this._send('end', null, isCurrent);\n    } else {\n      var $ = this;\n      setTimeout(function() {  $._send('end')  }, this._wait);\n    }\n  }\n});\n\n// Kefir.fromBinder(fn)\n\nfunction FromBinder(fn) {\n  Stream.call(this);\n  this._fn = Fn(fn, 1);\n  this._unsubscribe = null;\n}\n\ninherit(FromBinder, Stream, {\n\n  _name: 'fromBinder',\n\n  _onActivation: function() {\n    var $ = this\n      , unsub\n      , isCurrent = true\n      , emitter = {\n        emit: function(x) {  $._send('value', x, isCurrent)  },\n        end: function() {  $._send('end', null, isCurrent)  }\n      };\n    unsub = this._fn.invoke(emitter);\n    isCurrent = false;\n    if (unsub) {\n      this._unsubscribe = Fn(unsub, 0);\n    }\n  },\n  _onDeactivation: function() {\n    if (this._unsubscribe !== null) {\n      this._unsubscribe.invoke();\n      this._unsubscribe = null;\n    }\n  },\n\n  _clear: function() {\n    Stream.prototype._clear.call(this);\n    this._fn = null;\n  }\n\n})\n\nKefir.fromBinder = function(fn) {\n  return new FromBinder(fn);\n}\n\n\n\n\n\n\n// Kefir.emitter()\n\nfunction Emitter() {\n  Stream.call(this);\n}\n\ninherit(Emitter, Stream, {\n  _name: 'emitter',\n  emit: function(x) {  this._send('value', x)  },\n  end: function() {  this._send('end')  }\n});\n\nKefir.emitter = function() {\n  return new Emitter();\n}\n\n\n\n\n\n\n\n// Kefir.never()\n\nvar neverObj = new Stream();\nneverObj._send('end');\nneverObj._name = 'never';\nKefir.never = function() {  return neverObj  }\n\n\n\n\n\n// Kefir.constant(x)\n\nfunction Constant(x) {\n  Property.call(this);\n  this._send('value', x);\n  this._send('end');\n}\n\ninherit(Constant, Property, {\n  _name: 'constant'\n})\n\nKefir.constant = function(x) {\n  return new Constant(x);\n}\n\n\n// .setName\n\nObservable.prototype.setName = function(sourceObs, selfName /* or just selfName */) {\n  this._name = selfName ? sourceObs._name + '.' + selfName : sourceObs;\n  return this;\n}\n\n\n\n// .mapTo\n\nObservable.prototype.mapTo = function(value) {\n  return this.map(function() {  return value  }).setName(this, 'mapTo');\n}\n\n\n\n// .pluck\n\nObservable.prototype.pluck = function(propertyName) {\n  return this.map(function(x) {\n    return x[propertyName];\n  }).setName(this, 'pluck');\n}\n\n\n\n// .invoke\n\nObservable.prototype.invoke = function(methodName /*, arg1, arg2... */) {\n  var args = rest(arguments, 1);\n  return this.map(args ?\n    function(x) {  return apply(x[methodName], x, args)  } :\n    function(x) {  return x[methodName]()  }\n  ).setName(this, 'invoke');\n}\n\n\n\n// .tap\n\nObservable.prototype.tap = function(fn) {\n  fn = Fn(fn, 1);\n  return this.map(function(x) {\n    fn.invoke(x);\n    return x;\n  }).setName(this, 'tap');\n}\n\n\n\n// .and\n\nKefir.and = function(observables) {\n  return Kefir.combine(observables, and).setName('and');\n}\n\nObservable.prototype.and = function(other) {\n  return this.combine(other, and).setName('and');\n}\n\n\n\n// .or\n\nKefir.or = function(observables) {\n  return Kefir.combine(observables, or).setName('or');\n}\n\nObservable.prototype.or = function(other) {\n  return this.combine(other, or).setName('or');\n}\n\n\n\n// .not\n\nObservable.prototype.not = function() {\n  return this.map(function(x) {  return !x  }).setName(this, 'not');\n}\n\n\n\n// .awaiting\n\nObservable.prototype.awaiting = function(other) {\n  return Kefir.merge([\n    this.mapTo(true),\n    other.mapTo(false)\n  ]).skipDuplicates().toProperty(false).setName(this, 'awaiting');\n}\n\n\n\n// .filterBy\n\nObservable.prototype.filterBy = function(other) {\n  return other\n    .sampledBy(this)\n    .withHandler(function(emitter, e) {\n      if (e.type === 'end') {\n        emitter.end();\n      } else if (e.value[0]) {\n        emitter.emit(e.value[1]);\n      }\n    })\n    .setName(this, 'filterBy');\n}\n\n\n\n\n// .fromCallback\n\nKefir.fromCallback = function(callbackConsumer) {\n  callbackConsumer = Fn(callbackConsumer, 1);\n  var called = false;\n  return Kefir.fromBinder(function(emitter) {\n    if (!called) {\n      callbackConsumer.invoke(function(x) {\n        emitter.emit(x);\n        emitter.end();\n      });\n      called = true;\n    }\n  }).setName('fromCallback');\n}\n\n\n  if (typeof define === 'function' && define.amd) {\n    define([], function() {\n      return Kefir;\n    });\n    global.Kefir = Kefir;\n  } else if (typeof module === \"object\" && typeof exports === \"object\") {\n    module.exports = Kefir;\n    Kefir.Kefir = Kefir;\n  } else {\n    global.Kefir = Kefir;\n  }\n\n}(this));"
+        },
+        {
+          "id": 13,
+          "identifier": "external \"/Users/demi/Projects/react-pellet/node_modules/react/react.js\"",
+          "name": "external \"/Users/demi/Projects/react-pellet/node_modules/react/react.js\"",
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+              "module": "./components/watch-video/watch-video.jsx",
+              "moduleName": "./components/watch-video/watch-video.jsx",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "3:12-28"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "identifier": "/Users/demi/Projects/react-pellet/node_modules/url-loader/index.js?limit=100000&mimetype=image/svg+xml!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/vevo-header.svg",
+          "name": "./components/watch-video/vevo-header.svg",
+          "size": 2449,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "profile": {
+            "factory": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+              "module": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+              "moduleName": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+              "type": "cjs require",
+              "userRequest": "./vevo-header.svg",
+              "loc": "2:364-392"
+            }
+          ],
+          "source": "module.exports = \"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI4OHB4IiBoZWlnaHQ9IjIycHgiIHZpZXdCb3g9IjAgMCA4OCAyMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgODggMjIiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBmaWxsPSIjRUQxQTNCIiBkPSJNMjAuODA0LDAuNzFjLTMuOTA1LDAtNC42NDksMi4yOTktNS44MTQsMy45NzljMCwwLTMuMTY4LDQuODI1LTQuMzczLDYuNjYyTDguMDE4LDAuNzFoLTYuOTgKCQkJCUw1LjQ0LDE4LjUzM2MwLjkxMiwzLjE4NCwzLjUwNCwyLjk4MSwzLjUwNCwyLjk4MWMxLjc3NSwwLDMuMTA2LTAuOTQxLDQuMzEyLTIuNzIyTDI1LjEzMSwwLjcxCgkJCQlDMjUuMTMxLDAuNzEsMjAuOTc3LDAuNzEsMjAuODA0LDAuNzF6IE02My45NDksMC43MWMtMy45MDUsMC00LjY0OSwyLjI5OS01LjgxNCwzLjk3OWMwLDAtMy4xNjcsNC44MjUtNC4zNzQsNi42NjJMNTEuMTYzLDAuNzEKCQkJCWgtNi45ODFsNC40MDMsMTcuODIzYzAuOTExLDMuMTg0LDMuNTA0LDIuOTgxLDMuNTA0LDIuOTgxYzEuNzc1LDAsMy4xMDUtMC45NDEsNC4zMTItMi43MjJMNjguMjc2LDAuNzEKCQkJCUM2OC4yNzYsMC43MSw2NC4xMjIsMC43MSw2My45NDksMC43MXogTTc3LjE1OSwwLjI2NEM3MC4zMTcsMC4yNjIsNjQuOTQsNS45OTIsNjQuNzI4LDEyLjE3NwoJCQkJYy0wLjE4Nyw1LjQyNiwzLjQ1MSw5LjU2Myw5LjY4OSw5LjU2NGM2Ljg4MSwwLDEyLjI1OC01LjcyOSwxMi40NzEtMTEuOTUyQzg3LjA3Myw0LjQwMSw4My40MzYsMC4yNjUsNzcuMTU5LDAuMjY0egoJCQkJIE03NS4wNjEsMTUuMzljLTIuMDU3LDAtMy40MDUtMS4zNjktMy4zMjctMy41NDZjMC4wODgtMi40NTcsMi4wNjEtNS4yMyw0LjgxOC01LjIzYzIuMDU4LDAsMy40MDUsMS4zNzEsMy4zMjksMy41MTIKCQkJCUM3OS43OTIsMTIuNjE3LDc3LjgxOCwxNS4zOTEsNzUuMDYxLDE1LjM5eiBNMzQuMzE4LDAuMjU5Yy02Ljg0NC0wLjAwMi0xMi4yMTksNS43MjgtMTIuNDMyLDExLjkxMwoJCQkJYy0wLjE4Nyw1LjQyNywzLjQ1Miw5LjU2Myw5LjY4OSw5LjU2NGM0Ljk0NiwwLDkuMTE1LTIuOTYyLDExLjE0OC02LjkzN2wtNy42MDYsMGMtMC44MjUsMC43MDMtMS44MzQsMS4xNDgtMi45NjQsMS4xNDgKCQkJCWMtMS45NTIsMC0zLjMxNi0xLjE3Mi0zLjU4LTMuMDk0bDEzLjA0MSwwLjAwMWMxLjAzMywwLDEuOTk1LTAuMTQ4LDIuMjEyLTEuMjI1YzAuMTIzLTAuNjA3LDAuMTk4LTEuMjIzLDAuMjE5LTEuODQ2CgkJCQlDNDQuMjMyLDQuMzk2LDQwLjU5NCwwLjI2LDM0LjMxOCwwLjI1OXogTTM2LjcwOSw4LjY0NGgtNy4xMzdjMC45My0xLjQ4NiwyLjQxNi0yLjU5Niw0LjIwNS0yLjU5NgoJCQkJYzEuNjIzLDAsMi44MzYsMC44MTMsMy4zNTIsMi4xOEMzNy4yMDMsOC41MTQsMzcuMDIyLDguNjQ0LDM2LjcwOSw4LjY0NHoiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==\""
+        }
+      ],
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "multi component",
+          "moduleIdentifier": "multi component",
+          "moduleName": "multi component",
+          "loc": "",
+          "name": "component",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 6,
+      "identifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/addStyles.js",
+      "name": "/Users/demi/Projects/react-pellet/~/style-loader/addStyles.js",
+      "size": 3183,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+      "profile": {
+        "factory": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "module": "./components/watch-video/watch-video.styl",
+          "moduleName": "./components/watch-video/watch-video.styl",
+          "type": "cjs require",
+          "userRequest": "!/Users/demi/Projects/react-pellet/node_modules/style-loader/addStyles.js",
+          "loc": "7:13-97"
+        }
+      ],
+      "source": "/*\r\n\tMIT License http://www.opensource.org/licenses/mit-license.php\r\n\tAuthor Tobias Koppers @sokra\r\n*/\r\nvar stylesInDom = {};\r\n\r\nmodule.exports = function(list) {\r\n\tif(typeof DEBUG !== \"undefined\" && DEBUG) {\r\n\t\tif(typeof document !== \"object\") throw new Error(\"The style-loader cannot be used in a non-browser environment\");\r\n\t}\r\n\tvar styles = listToStyles(list);\r\n\taddStylesToDom(styles);\r\n\treturn function update(newList) {\r\n\t\tvar mayRemove = [];\r\n\t\tfor(var i = 0; i < styles.length; i++) {\r\n\t\t\tvar item = styles[i];\r\n\t\t\tvar domStyle = stylesInDom[item.id];\r\n\t\t\tdomStyle.refs--;\r\n\t\t\tmayRemove.push(domStyle);\r\n\t\t}\r\n\t\tif(newList) {\r\n\t\t\tvar newStyles = listToStyles(newList);\r\n\t\t\taddStylesToDom(newStyles);\r\n\t\t}\r\n\t\tfor(var i = 0; i < mayRemove.length; i++) {\r\n\t\t\tvar domStyle = mayRemove[i];\r\n\t\t\tif(domStyle.refs === 0) {\r\n\t\t\t\tfor(var j = 0; j < domStyle.parts.length; j++)\r\n\t\t\t\t\tdomStyle.parts[j]();\r\n\t\t\t\tdelete stylesInDom[domStyle.id];\r\n\t\t\t}\r\n\t\t}\r\n\t};\r\n}\r\n\r\nfunction addStylesToDom(styles) {\r\n\tfor(var i = 0; i < styles.length; i++) {\r\n\t\tvar item = styles[i];\r\n\t\tvar domStyle = stylesInDom[item.id];\r\n\t\tif(domStyle) {\r\n\t\t\tdomStyle.refs++;\r\n\t\t\tfor(var j = 0; j < domStyle.parts.length; j++) {\r\n\t\t\t\tdomStyle.parts[j](item.parts[j]);\r\n\t\t\t}\r\n\t\t\tfor(; j < item.parts.length; j++) {\r\n\t\t\t\tdomStyle.parts.push(addStyle(item.parts[j]));\r\n\t\t\t}\r\n\t\t} else {\r\n\t\t\tvar parts = [];\r\n\t\t\tfor(var j = 0; j < item.parts.length; j++) {\r\n\t\t\t\tparts.push(addStyle(item.parts[j]));\r\n\t\t\t}\r\n\t\t\tstylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};\r\n\t\t}\r\n\t}\r\n}\r\n\r\nfunction listToStyles(list) {\r\n\tvar styles = [];\r\n\tvar newStyles = {};\r\n\tfor(var i = 0; i < list.length; i++) {\r\n\t\tvar item = list[i];\r\n\t\tvar id = item[0];\r\n\t\tvar css = item[1];\r\n\t\tvar media = item[2];\r\n\t\t// var sourceMap = item[3];\r\n\t\tvar part = {css: css, media: media/*, sourceMap: sourceMap*/};\r\n\t\tif(!newStyles[id])\r\n\t\t\tstyles.push(newStyles[id] = {id: id, parts: [part]});\r\n\t\telse\r\n\t\t\tnewStyles[id].parts.push(part);\r\n\t}\r\n\treturn styles;\r\n}\r\n\r\nfunction addStyle(obj) {\r\n\tvar styleElement = document.createElement(\"style\");\r\n\tvar head = document.head || document.getElementsByTagName(\"head\")[0];\r\n\tstyleElement.type = \"text/css\";\r\n\thead.appendChild(styleElement);\r\n\tapplyToTag(styleElement, obj);\r\n\treturn function(newObj) {\r\n\t\tif(newObj) {\r\n\t\t\tif(newObj.css === obj.css && newObj.media === obj.media /*&& newObj.sourceMap === obj.sourceMap*/)\r\n\t\t\t\treturn;\r\n\t\t\tapplyToTag(styleElement, obj = newObj);\r\n\t\t} else {\r\n\t\t\thead.removeChild(styleElement);\r\n\t\t}\r\n\t};\r\n};\r\n\r\nfunction applyToTag(styleElement, obj) {\r\n\tvar css = obj.css;\r\n\tvar media = obj.media;\r\n\t// var sourceMap = obj.sourceMap;\r\n\r\n\t// No browser support\r\n\t// if(sourceMap && typeof btoa === \"function\") {\r\n\t\t// try {\r\n\t\t\t// css += \"\\n/*# sourceMappingURL=data:application/json;base64,\" + btoa(JSON.stringify(sourceMap)) + \" */\";\r\n\t\t// } catch(e) {}\r\n\t// }\r\n\tif(media) {\r\n\t\tstyleElement.setAttribute(\"media\", media)\r\n\t}\r\n\tif (styleElement.styleSheet) {\r\n\t\tstyleElement.styleSheet.cssText = css;\r\n\t} else {\r\n\t\twhile(styleElement.firstChild) {\r\n\t\t\tstyleElement.removeChild(styleElement.firstChild);\r\n\t\t}\r\n\t\tstyleElement.appendChild(document.createTextNode(css));\r\n\t}\r\n\r\n}\r\n"
+    },
+    {
+      "id": 0,
+      "identifier": "multi component",
+      "name": "multi component",
+      "size": 28,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "profile": {
+        "factory": 1
+      },
+      "failed": false,
+      "errors": 24,
+      "warnings": 0,
+      "reasons": []
+    },
+    {
+      "id": 3,
+      "identifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+      "name": "./components/watch-video/watch-video.styl",
+      "size": 1592,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "multi assets",
+      "profile": {
+        "factory": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "multi assets",
+          "module": "multi assets",
+          "moduleName": "multi assets",
+          "type": "single entry",
+          "userRequest": "/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+          "module": "./components/watch-video/watch-video.jsx",
+          "moduleName": "./components/watch-video/watch-video.jsx",
+          "type": "cjs require",
+          "userRequest": "./watch-video.styl",
+          "loc": "5:0-29"
+        }
+      ],
+      "source": "// style-loader: Adds some css to the DOM by adding a <style> tag\n\n// load the styles\nvar content = require(\"!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl\");\nif(typeof content === 'string') content = [module.id, content, ''];\n// add the styles to the DOM\nvar update = require(\"!/Users/demi/Projects/react-pellet/node_modules/style-loader/addStyles.js\")(content);\n// Hot Module Replacement\nif(module.hot) {\n\t// When the styles change, update the <style> tags\n\tmodule.hot.accept(\"!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl\", function() {\n\t\tvar newContent = require(\"!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl\");\n\t\tif(typeof newContent === 'string') newContent = [module.id, newContent, ''];\n\t\tupdate(newContent);\n\t});\n\t// When the module is disposed, remove the <style> tags\n\tmodule.hot.dispose(function() { update(); });\n}"
+    },
+    {
+      "id": 4,
+      "identifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+      "name": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+      "size": 934,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+      "profile": {
+        "factory": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/style-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "module": "./components/watch-video/watch-video.styl",
+          "moduleName": "./components/watch-video/watch-video.styl",
+          "type": "cjs require",
+          "userRequest": "!!/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "loc": "4:14-325"
+        }
+      ],
+      "source": "exports = module.exports = require(\"/Users/demi/Projects/react-pellet/node_modules/css-loader/cssToString.js\")();\nexports.push([module.id, \".watchVideo-component {\\n  background: #000;\\n  z-index: 10000;\\n  position: fixed;\\n  bottom: 10px;\\n  right: 20px;\\n  width: 300px;\\n  height: 280px;\\n  overflow: hidden;\\n}\\n.watchVideo-component #vevo-player {\\n  width: 300px;\\n  height: 200px;\\n}\\n.watchVideo-component .logo {\\n  width: 100px;\\n  height: 22px;\\n  background: url(\"+require(\"./vevo-header.svg\")+\") no-repeat center;\\n}\\n.watchVideo-component .loading {\\n  color: #fff;\\n  font-size: 28px;\\n  text-align: center;\\n  line-height: 200px;\\n  height: 200px;\\n}\\n.watchVideo-component p {\\n  color: #ccc;\\n  font-family: sans-serif;\\n  padding: 7px;\\n}\\n.watchVideo-component p a {\\n  text-decoration: underline;\\n  color: #6495ed;\\n  cursor: pointer;\\n}\\n.watchVideo-component p a:hover {\\n  text-decoration: none;\\n}\\n\", \"\"]);"
+    },
+    {
+      "id": 5,
+      "identifier": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+      "name": "./components/watch-video/watch-video.jsx",
+      "size": 2075,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "multi component",
+      "profile": {
+        "factory": 0,
+        "building": 17,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "multi component",
+          "module": "multi component",
+          "moduleName": "multi component",
+          "type": "single entry",
+          "userRequest": "/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx"
+        }
+      ],
+      "source": "/** @jsx React.DOM */\n\nvar React = require('react')\n  , pellet = require('pellet')\nrequire('./watch-video.styl')\n\nif(!SERVER_ENV) {\n  var vevoAPI = require('./data-access-layer');\n  var youtube = require('jsx!react-youtube');\n\n  var watchVideoComponent = React.createClass({displayName: 'watchVideoComponent',\n    getInitialState: function() {\n      var self = this;\n      vevoAPI.getPlaylist('f2e58a00-780d-4904-a1cc-0305f29425bf', function(err, data) {\n        self.setState({videos:data.videos});\n        self.showVideo(0)\n      });\n\n      return {video: null, index:-1, loading: true};\n    },\n\n    showVideo: function(index) {\n      if(!this.state.videos[index]) {index = 0;}\n\n      var self = this;\n      vevoAPI.getVideo(this.state.videos[index].isrc, function(err, data) {\n        console.log('video Data', data);\n        self.setState({video:data, index: index, loading:false});\n      });\n    },\n\n    next: function() {\n      this.showVideo(this.state.index + 1);\n    },\n    render: function() {\n      return (\n        React.DOM.div({className: \"watchVideo-component\"}, \n          this.state.loading?(React.DOM.div({className: \"loading\"}, \"LOADING...\")):youtube({id:\"vevo-player\", url:'https://www.youtube.com/watch?v='+this.state.video.youTubeId, autoplay:1}), \n          React.DOM.div({className: \"logo\"}), \n          React.DOM.p(null, this.state.video && this.state.video.title, \" \", React.DOM.a({onClick: this.next}, \"Next Video (VOTE)\"))\n        )\n      );\n    }\n  });\n\n  (function () {\n    // need to include react, assets, component\n    var embedPlayer = document.createElement(\"div\");\n    document.body.appendChild(embedPlayer);\n    React.renderComponent(watchVideoComponent(), embedPlayer);\n\n  })();\n\n}\n/*\n(function() {\n  function a(u) {var h = document.head || document.getElementsByTagName('head')[0];var s = document.createElement('script');s.type = 'text/javascript';s.charset = 'utf8';s.async = false;s.src = u;h.appendChild(s);}\n  a('//cdnjs.cloudflare.com/ajax/libs/react/0.11.2/react-with-addons.js');\n  a('//localhost:3000/js/component.js');\n})()\n*/"
+    },
+    {
+      "id": 0,
+      "identifier": "multi assets",
+      "name": "multi assets",
+      "size": 28,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "profile": {
+        "factory": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": []
+    },
+    {
+      "id": 8,
+      "identifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/cssToString.js",
+      "name": "/Users/demi/Projects/react-pellet/~/css-loader/cssToString.js",
+      "size": 352,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+      "profile": {
+        "factory": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "module": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+          "moduleName": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+          "type": "cjs require",
+          "userRequest": "/Users/demi/Projects/react-pellet/node_modules/css-loader/cssToString.js",
+          "loc": "1:27-110"
+        }
+      ],
+      "source": "module.exports = function() {\r\n\tvar list = [];\r\n\tlist.toString = function toString() {\r\n\t\tvar result = [];\r\n\t\tfor(var i = 0; i < this.length; i++) {\r\n\t\t\tvar item = this[i];\r\n\t\t\tif(item[2]) {\r\n\t\t\t\tresult.push(\"@media \" + item[2] + \"{\" + item[1] + \"}\");\r\n\t\t\t} else {\r\n\t\t\t\tresult.push(item[1]);\r\n\t\t\t}\r\n\t\t}\r\n\t\treturn result.join(\"\");\r\n\t};\r\n\treturn list;\r\n}"
+    },
+    {
+      "id": 9,
+      "identifier": "/Users/demi/Projects/react-pellet/src/pellet.js",
+      "name": "/Users/demi/Projects/react-pellet/src/pellet.js",
+      "size": 5800,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+      "profile": {
+        "factory": 0,
+        "building": 22
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+          "module": "./components/watch-video/watch-video.jsx",
+          "moduleName": "./components/watch-video/watch-video.jsx",
+          "type": "cjs require",
+          "userRequest": "pellet",
+          "loc": "4:13-30"
+        }
+      ],
+      "source": "var /*director = require('director')\n  , */kefir = require('kefir')\n  , globlePellet;\n\nfunction pellet() {\n  this.readyFnQue = [];\n  this.initFnQue = [];\n\n  this.emitters = {};\n}\n\n\npellet.prototype.getEmitter = function(key, namespace) {\n  if(this.emitters[key]) {\n    return this.emitters[key];\n  }\n\n  var stream = this.emitters[key] = kefir.emitter();\n  stream.onEnd(function() {\n    delete this.emitters[key];\n  });\n\n  return stream;\n}\n\n/**\n * register a function to be called once pellet is ready\n * @param fn\n */\npellet.prototype.onReady = function(fn) {\n  // if all ready running fire immediately with the last know err (or null if no errors)\n  if(typeof(this.readyError) != 'undefined') {\n    setTimeout(function() {\n      fn(module.exports.readyError);\n    }, 1);\n\n    return;\n  }\n\n  this.readyFnQue.push(fn);\n};\n\n/**\n * register a function needed to complete before pellet is ready\n * @param fn\n */\npellet.prototype.registerInitFn = function(fn) {\n  this.initFnQue.push(fn);\n};\n\n/**\n * Called after everyone has register their load functions\n */\npellet.prototype.startInit = function() {\n  if(typeof(this.readyError) != 'undefined') {\n    throw new Error('Can not reinit because pellet is all ready running.');\n  }\n\n  var cbCount = this.initFnQue.length;\n  function done(err) {\n    if(err) {\n      // console log the error and safe the most recent error\n      console.error('Error init pellet because:', err.message);\n      module.exports.readyError = err;\n    }\n\n    if(--cbCount <= 0) {\n      // if all callback had no error set to null\n      if(!module.exports.readyError) {\n        module.exports.readyError = null;\n      }\n\n      var fn;\n      while(fn = module.exports.readyFnQue.pop()) {\n        fn(module.exports.readyError);\n      }\n    }\n  }\n\n  if(cbCount === 0) {\n    done(null);\n    return;\n  }\n\n  // now call all init fn and wait until all done\n  for(var i in this.initFnQue) {\n    this.initFnQue[i](done);\n  }\n};\n\n// for the server environment define the middleware\nif(typeof BROWSER_ENV === 'undefined' || !BROWSER_ENV) {\n  pellet.prototype.middleware = function (req, res, next) {\n    var stream = globlePellet.getEmitter('route:change');\n\n    // if no observers skip route\n    if(!stream._active) {\n      next();\n      return;\n    }\n\n    stream.emit({\n      path: req.path,\n      query: req.query,\n      req: req,\n      res: res,\n      next: next\n    });\n  };\n\n  pellet.prototype.renderServerSide = function() {\n    var markup;\n\n    var ourBodyScripts = '<script src=\"//cdnjs.cloudflare.com/ajax/libs/history.js/1.8/native.history.min.js\"></script>'+\n      '<script src=\"//cdnjs.cloudflare.com/ajax/libs/react/0.11.1/react-with-addons.js\"></script>'+\n      '<script src=\"/js/demo.js\"></script>';\n\n    // for bots only return the markup with out react state and bootstrap call\n    if(/googlebot|gurujibot|twitterbot|yandexbot|slurp|msnbot|bingbot|rogerbot|facebookexternalhit/i.test(message.req.headers['user-agent']||'')) {\n      markup = react.renderComponentToStaticMarkup(layout({body:message.component, meta:message.meta, locales:app.i18n.locales, messages:app.i18n.messages}));\n    } else {\n      markup = react.renderComponentToString(layout({body:message.component, meta:message.meta, locales:app.i18n.locales, messages:app.i18n.messages}));\n\n      if(message.id) {\n        ourBodyScripts += '<script>app.bootstrap(\"'+message.id+'\",'+JSON.stringify(message.props)+','+JSON.stringify(message.meta)+');</script>';\n      }\n    }\n\n    ourBodyScripts += '<!-- Google Analytics: change UA-XXXXX-X to be your site\\'s ID. -->\\n'+\n    '<script>\\n'+\n      '(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=\\n'+\n      'function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;\\n'+\n      'e=o.createElement(i);r=o.getElementsByTagName(i)[0];\\n'+\n      'e.src=\\'//www.google-analytics.com/analytics.js\\';\\n'+\n      'r.parentNode.insertBefore(e,r)}(window,document,\\'script\\',\\'ga\\'));\\n'+\n      'ga(\\'create\\',\\'UA-XXXXX-X\\');ga(\\'send\\',\\'pageview\\');\\n'+\n    '</script>';\n\n    // workaround because react does not support doctype or <!-- -->\n    message.res.status((message.meta && message.meta.status) || 200);\n    message.res.end('<!DOCTYPE html>\\n'+\n      '<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\\n'+\n      '<!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\"> <![endif]-->\\n'+\n      '<!--[if IE 8]>         <html class=\"no-js lt-ie9\"> <![endif]-->\\n'+\n      '<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\\n'+\n      '<head>'+\n        '<meta charset=\"utf-8\">'+\n        '<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">'+\n        ((message.meta && message.meta.title) ? '  <title>' + message.meta.title + '</title>' : '') +\n        '<meta name=\"description\" content=\"\">'+\n        '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">'+\n        '<script src=\"//polyfill.io\"></script>'+\n        '<script src=\"/js/demo-assets.js\"></script>'+\n      '</head>'+\n      '<body>'+\n        '<!--[if lt IE 7]>\\n'+\n        '<p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience.</p>\\n'+\n        '<![endif]-->\\n'+\n        '<div id=\"__APP__\">'+\n          markup +\n        '</div>'+\n        ourBodyScripts+\n      '</body>'+\n      '</html>');\n  }\n}\n\n// hack the environment so that we can create a singleton that can be shared\n// between the native nodejs environment and the webpacks container.\nif(typeof BROWSER_ENV !== 'undefined' && BROWSER_ENV) {\n  globlePellet = new pellet();\n} else {\n  if(global.__pelletSingleton) {\n    globlePellet = global.__pelletSingleton;\n  } else {\n    globlePellet = global.__pelletSingleton = new pellet();\n  }\n}\n\nmodule.exports = globlePellet;\n"
+    },
+    {
+      "id": 12,
+      "identifier": "/Users/demi/Projects/react-pellet/node_modules/kefir/dist/kefir.js",
+      "name": "/Users/demi/Projects/react-pellet/~/kefir/dist/kefir.js",
+      "size": 41195,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "/Users/demi/Projects/react-pellet/src/pellet.js",
+      "profile": {
+        "factory": 0,
+        "building": 125
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "/Users/demi/Projects/react-pellet/src/pellet.js",
+          "module": "/Users/demi/Projects/react-pellet/src/pellet.js",
+          "moduleName": "/Users/demi/Projects/react-pellet/src/pellet.js",
+          "type": "cjs require",
+          "userRequest": "kefir",
+          "loc": "2:14-30"
+        }
+      ],
+      "source": "/*! Kefir.js v0.2.6\n *  https://github.com/pozadi/kefir\n */\n;(function(global){\n  \"use strict\";\n\nvar NOTHING = ['<nothing>'];\n\nfunction get(map, key, notFound) {\n  if (map && key in map) {\n    return map[key];\n  } else {\n    return notFound;\n  }\n}\n\nfunction own(obj, prop) {\n  return Object.prototype.hasOwnProperty.call(obj, prop);\n}\n\nfunction createObj(proto) {\n  var F = function() {};\n  F.prototype = proto;\n  return new F();\n}\n\nfunction extend(target /*, mixin1, mixin2...*/) {\n  var length = arguments.length\n    , i, prop;\n  for (i = 1; i < length; i++) {\n    for (prop in arguments[i]) {\n      target[prop] = arguments[i][prop];\n    }\n  }\n  return target;\n}\n\nfunction inherit(Child, Parent /*, mixin1, mixin2...*/) {\n  var length = arguments.length\n    , i;\n  Child.prototype = createObj(Parent.prototype);\n  Child.prototype.constructor = Child;\n  for (i = 2; i < length; i++) {\n    extend(Child.prototype, arguments[i]);\n  }\n  return Child;\n}\n\nfunction agrsToArray(args) {\n  if (args.length === 1 && isArray(args[0])) {\n    return args[0];\n  }\n  return cloneArray(args);\n}\n\nfunction getFn(fn, context) {\n  if (isFn(fn)) {\n    return fn;\n  } else {\n    if (context == null || !isFn(context[fn])) {\n      throw new Error('Not a function: ' + fn + ' in context: ' + context);\n    } else {\n      return context[fn];\n    }\n  }\n}\n\nfunction apply(fn, c, a) {\n  var aLength = a ? a.length : 0;\n  if (c == null) {\n    switch (aLength) {\n      case 0:  return fn();\n      case 1:  return fn(a[0]);\n      case 2:  return fn(a[0], a[1]);\n      case 3:  return fn(a[0], a[1], a[2]);\n      case 4:  return fn(a[0], a[1], a[2], a[3]);\n      default: return fn.apply(null, a);\n    }\n  } else {\n    switch (aLength) {\n      case 0:  return fn.call(c);\n      default: return fn.apply(c, a);\n    }\n  }\n}\n\nfunction bindWithoutContext(fn, a, length) {\n  var a0 = a[0], a1 = a[1], a2 = a[2], a3 = a[3];\n  switch (length) {\n    case 0:\n      switch (a.length) {\n        case 0:  return fn;\n        case 1:  return function() {return fn(a0)}\n        case 2:  return function() {return fn(a0, a1)}\n        case 3:  return function() {return fn(a0, a1, a2)}\n        case 4:  return function() {return fn(a0, a1, a2, a3)}\n        default: return function() {return fn.apply(null, a)}\n      }\n      break;\n    case 1:\n      switch (a.length) {\n        case 0:  return fn;\n        case 1:  return function(b0) {return fn(a0, b0)}\n        case 2:  return function(b0) {return fn(a0, a1, b0)}\n        case 3:  return function(b0) {return fn(a0, a1, a2, b0)}\n        case 4:  return function(b0) {return fn(a0, a1, a2, a3, b0)}\n        default: return function(b0) {return fn.apply(null, concat(a, [b0]))}\n      }\n      break;\n    case 2:\n      switch (a.length) {\n        case 0:  return fn;\n        case 1:  return function(b0, b1) {return fn(a0, b0, b1)}\n        case 2:  return function(b0, b1) {return fn(a0, a1, b0, b1)}\n        case 3:  return function(b0, b1) {return fn(a0, a1, a2, b0, b1)}\n        case 4:  return function(b0, b1) {return fn(a0, a1, a2, a3, b0, b1)}\n        default: return function(b0, b1) {return fn.apply(null, concat(a, [b0, b1]))}\n      }\n      break;\n    default:\n      switch (a.length) {\n        case 0:  return fn;\n        default: return function() {return apply(fn, null, concat(a, arguments))}\n      }\n  }\n}\n\nfunction bindWithContext(fn, c, a, length) {\n  var a0 = a[0], a1 = a[1], a2 = a[2], a3 = a[3];\n  switch (length) {\n    case 0:\n      switch (a.length) {\n        case 0:  return function() {return fn.call(c)}\n        default: return function() {return fn.apply(c, a)}\n      }\n      break;\n    case 1:\n      switch (a.length) {\n        case 0:  return function(b0) {return fn.call(c, b0)}\n        case 1:  return function(b0) {return fn.call(c, a0, b0)}\n        case 2:  return function(b0) {return fn.call(c, a0, a1, b0)}\n        case 3:  return function(b0) {return fn.call(c, a0, a1, a2, b0)}\n        case 4:  return function(b0) {return fn.call(c, a0, a1, a2, a3, b0)}\n        default: return function(b0) {return fn.apply(c, concat(a, [b0]))}\n      }\n      break;\n    case 2:\n      switch (a.length) {\n        case 0:  return function(b0, b1) {return fn.call(c, b0, b1)}\n        case 1:  return function(b0, b1) {return fn.call(c, a0, b0, b1)}\n        case 2:  return function(b0, b1) {return fn.call(c, a0, a1, b0, b1)}\n        case 3:  return function(b0, b1) {return fn.call(c, a0, a1, a2, b0, b1)}\n        case 4:  return function(b0, b1) {return fn.call(c, a0, a1, a2, a3, b0, b1)}\n        default: return function(b0, b1) {return fn.apply(c, concat(a, [b0, b1]))}\n      }\n      break;\n    default:\n      switch (a.length) {\n        case 0: return function() {return fn.apply(c, arguments)}\n        default: return function() {return fn.apply(c, concat(a, arguments))}\n      }\n  }\n}\n\nfunction bind(fn, context, args, boundFunctionLength) {\n  if (context == null) {\n    return bindWithoutContext(fn, args, boundFunctionLength);\n  } else {\n    return bindWithContext(fn, context, args, boundFunctionLength);\n  }\n}\n\nfunction concat(a, b) {\n  var result = new Array(a.length + b.length)\n    , j = 0\n    , length, i;\n  if (a.length === 0) {  return b  }\n  if (b.length === 0) {  return a  }\n  length = a.length;\n  for (i = 0; i < length; i++, j++) {\n    result[j] = a[i];\n  }\n  length = b.length;\n  for (i = 0; i < length; i++, j++) {\n    result[j] = b[i];\n  }\n  return result;\n}\n\nfunction find(arr, value) {\n  var length = arr.length\n    , i;\n  for (i = 0; i < length; i++) {\n    if (arr[i] === value) {  return i  }\n  }\n  return -1;\n}\n\nfunction findByPred(arr, pred) {\n  var length = arr.length\n    , i;\n  for (i = 0; i < length; i++) {\n    if (pred(arr[i])) {  return i  }\n  }\n  return -1;\n}\n\nfunction cloneArray(input) {\n  var length = input.length\n    , result = new Array(length)\n    , i;\n  for (i = 0; i < length; i++) {\n    result[i] = input[i];\n  }\n  return result;\n}\n\nfunction remove(input, index) {\n  var length = input.length\n    , result, i, j;\n  if (index >= 0 && index < length) {\n    if (length === 1) {\n      return [];\n    } else {\n      result = new Array(length - 1);\n      for (i = 0, j = 0; i < length; i++) {\n        if (i !== index) {\n          result[j] = input[i];\n          j++;\n        }\n      }\n      return result;\n    }\n  } else {\n    return input;\n  }\n}\n\nfunction removeByPred(input, pred) {\n  return remove(input, findByPred(input, pred));\n}\n\nfunction map(input, fn) {\n  var length = input.length\n    , result = new Array(length)\n    , i;\n  for (i = 0; i < length; i++) {\n    result[i] = fn(input[i]);\n  }\n  return result;\n}\n\nfunction forEach(arr, fn) {\n  var length = arr.length\n    , i;\n  for (i = 0; i < length; i++) {  fn(arr[i])  }\n}\n\nfunction fillArray(arr, value) {\n  var length = arr.length\n    , i;\n  for (i = 0; i < length; i++) {\n    arr[i] = value;\n  }\n}\n\nfunction contains(arr, value) {\n  return find(arr, value) !== -1;\n}\n\nfunction rest(arr, start, onEmpty) {\n  if (arr.length > start) {\n    return Array.prototype.slice.call(arr, start);\n  }\n  return onEmpty;\n}\n\nvar now = Date.now ?\n  function() { return Date.now() } :\n  function() { return new Date().getTime() };\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isUndefined(x) {\n  return typeof x === 'undefined';\n}\n\nfunction isArrayLike(xs) {\n  return isArray(xs) || isArguments(xs);\n}\n\nvar isArray = Array.isArray || function(xs) {\n  return Object.prototype.toString.call(xs) === '[object Array]';\n}\n\nvar isArguments = function(xs) {\n  return Object.prototype.toString.call(xs) === '[object Arguments]';\n}\n\n// For IE\nif (!isArguments(arguments)) {\n  isArguments = function(obj) {\n    return !!(obj && own(obj, 'callee'));\n  }\n}\n\nfunction isEqualArrays(a, b) {\n  var length, i;\n  if (a == null && b == null) {\n    return true;\n  }\n  if (a == null || b == null) {\n    return false;\n  }\n  if (a.length !== b.length) {\n    return false;\n  }\n  for (i = 0, length = a.length; i < length; i++) {\n    if (a[i] !== b[i]) {\n      return false;\n    }\n  }\n  return true;\n}\n\nfunction and() {\n  for (var i = 0; i < arguments.length; i++) {\n    if (!arguments[i]) {\n      return arguments[i];\n    }\n  }\n  return arguments[i - 1];\n}\n\nfunction or() {\n  for (var i = 0; i < arguments.length; i++) {\n    if (arguments[i]) {\n      return arguments[i];\n    }\n  }\n  return arguments[i - 1];\n}\n\nfunction withInterval(name, mixin) {\n\n  function AnonymousStream(wait, args) {\n    Stream.call(this);\n    this._wait = wait;\n    this._intervalId = null;\n    var $ = this;\n    this._$onTick = function() {  $._onTick()  }\n    this._init(args);\n  }\n\n  inherit(AnonymousStream, Stream, {\n\n    _name: name,\n\n    _init: function(args) {},\n    _free: function() {},\n\n    _onTick: function() {},\n\n    _onActivation: function() {\n      this._intervalId = setInterval(this._$onTick, this._wait);\n    },\n    _onDeactivation: function() {\n      if (this._intervalId !== null) {\n        clearInterval(this._intervalId);\n        this._intervalId = null;\n      }\n    },\n\n    _clear: function() {\n      Stream.prototype._clear.call(this);\n      this._$onTick = null;\n      this._free();\n    }\n\n  }, mixin);\n\n  Kefir[name] = function(wait) {\n    return new AnonymousStream(wait, rest(arguments, 1, []));\n  }\n}\n\nfunction withOneSource(name, mixin, options) {\n\n\n  options = extend({\n    streamMethod: function(StreamClass, PropertyClass) {\n      return function() {  return new StreamClass(this, arguments)  }\n    },\n    propertyMethod: function(StreamClass, PropertyClass) {\n      return function() {  return new PropertyClass(this, arguments)  }\n    }\n  }, options || {});\n\n\n\n  mixin = extend({\n    _init: function(args) {},\n    _free: function() {},\n\n    _handleValue: function(x, isCurrent) {  this._send('value', x, isCurrent)  },\n    _handleEnd: function(__, isCurrent) {  this._send('end', null, isCurrent)  },\n\n    _onActivationHook: function() {},\n    _onDeactivationHook: function() {},\n\n    _handleAny: function(event) {\n      switch (event.type) {\n        case 'value': this._handleValue(event.value, event.current); break;\n        case 'end': this._handleEnd(event.value, event.current); break;\n      }\n    },\n\n    _onActivation: function() {\n      this._onActivationHook();\n      this._source.onAny([this._handleAny, this]);\n    },\n    _onDeactivation: function() {\n      this._onDeactivationHook();\n      this._source.offAny([this._handleAny, this]);\n    }\n  }, mixin || {});\n\n\n\n  function buildClass(BaseClass) {\n    function AnonymousObservable(source, args) {\n      BaseClass.call(this);\n      this._source = source;\n      this._name = source._name + '.' + name;\n      this._init(args);\n    }\n\n    inherit(AnonymousObservable, BaseClass, {\n      _clear: function() {\n        BaseClass.prototype._clear.call(this);\n        this._source = null;\n        this._free();\n      }\n    }, mixin);\n\n    return AnonymousObservable;\n  }\n\n\n  var AnonymousStream = buildClass(Stream);\n  var AnonymousProperty = buildClass(Property);\n\n  if (options.streamMethod) {\n    Stream.prototype[name] = options.streamMethod(AnonymousStream, AnonymousProperty);\n  }\n\n  if (options.propertyMethod) {\n    Property.prototype[name] = options.propertyMethod(AnonymousStream, AnonymousProperty);\n  }\n\n}\n\n\n\nvar Kefir = {};\n\n\n\n\n// Fn\n\nfunction normFnMeta(fnMeta) {\n  if (fnMeta instanceof _Fn) {\n    return fnMeta;\n  } else {\n    if (isFn(fnMeta)) {\n      return {\n        fn: fnMeta,\n        context: null,\n        args: []\n      };\n    } else {\n      if (isArrayLike(fnMeta)) {\n        return {\n          fn: getFn(fnMeta[0], fnMeta[1]),\n          context: (fnMeta[1] == null ? null : fnMeta[1]),\n          args: rest(fnMeta, 2, [])\n        };\n      } else {\n        throw new Error('Object isn\\'t a function, and can\\'t be converted to it: ' + fnMeta);\n      }\n    }\n  }\n}\n\nfunction applyFnMeta(fnMeta, args) {\n  fnMeta = normFnMeta(fnMeta);\n  return apply(fnMeta.fn, fnMeta.context, concat(fnMeta.args, args));\n}\n\nfunction _Fn(fnMeta, length) {\n  this.context = fnMeta.context;\n  this.fn = fnMeta.fn;\n  this.args = fnMeta.args;\n  this.invoke = bind(this.fn, this.context, this.args, length);\n}\n\n_Fn.prototype.apply = function(args) {\n  return apply(this.invoke, null, args);\n}\n\n_Fn.prototype.applyWithContext = function(context, args) {\n  if (this.context === null) {\n    return apply(this.fn, context, concat(this.args, args));\n  } else {\n    return this.apply(args);\n  }\n}\n\nfunction Fn(fnMeta, length) {\n  if (fnMeta instanceof _Fn) {\n    return fnMeta;\n  } else {\n    return new _Fn(normFnMeta(fnMeta), length == null ? 100 : length);\n  }\n}\n\nFn.isEqual = function(a, b) {\n  if (a === b) {\n    return true;\n  }\n  a = Fn(a, null, true);\n  b = Fn(b, null, true);\n  return a.fn === b.fn &&\n    a.context === b.context &&\n    isEqualArrays(a.args, b.args);\n}\n\nKefir.Fn = Fn;\n\n\n\n\n\n// Subscribers\n\nfunction Subscribers() {\n  this._fns = [];\n}\n\nextend(Subscribers, {\n  callOne: function(fn, event) {\n    if (fn.type === 'any') {\n      fn.invoke(event);\n    } else if (fn.type === event.type) {\n      if (fn.type === 'value') {\n        fn.invoke(event.value);\n      } else {\n        fn.invoke();\n      }\n    }\n  },\n  callOnce: function(type, fnMeta, event) {\n    if (type === 'any') {\n      applyFnMeta(fnMeta, [event]);\n    } else if (type === event.type) {\n      if (type === 'value') {\n        applyFnMeta(fnMeta, [event.value]);\n      } else {\n        applyFnMeta(fnMeta, []);\n      }\n    }\n  }\n});\n\nextend(Subscribers.prototype, {\n  add: function(type, fn) {\n    fn = Fn(fn, type === 'end' ? 0 : 1);\n    fn.type = type;\n    this._fns = concat(this._fns, [fn]);\n  },\n  remove: function(type, fn) {\n    fn = Fn(fn);\n    this._fns = removeByPred(this._fns, function(x) {\n      return x.type === type && Fn.isEqual(x, fn);\n    });\n  },\n  callAll: function(event) {\n    var fns = this._fns;\n    for (var i = 0; i < fns.length; i++) {\n      Subscribers.callOne(fns[i], event);\n    }\n  },\n  isEmpty: function() {\n    return this._fns.length === 0;\n  }\n});\n\n\n\n\n\n// Events\n\nfunction Event(type, value, current) {\n  return {type: type, value: value, current: !!current};\n}\n\nvar CURRENT_END = Event('end', undefined, true);\n\n\n\n\n\n// Observable\n\nfunction Observable() {\n  this._subscribers = new Subscribers();\n  this._active = false;\n  this._alive = true;\n}\nKefir.Observable = Observable;\n\nextend(Observable.prototype, {\n\n  _name: 'observable',\n\n  _onActivation: function() {},\n  _onDeactivation: function() {},\n\n  _setActive: function(active) {\n    if (this._active !== active) {\n      this._active = active;\n      if (active) {\n        this._onActivation();\n      } else {\n        this._onDeactivation();\n      }\n    }\n  },\n\n  _clear: function() {\n    this._setActive(false);\n    this._alive = false;\n    this._subscribers = null;\n  },\n\n  _send: function(type, x, isCurrent) {\n    if (this._alive) {\n      this._subscribers.callAll(Event(type, x, isCurrent));\n      if (type === 'end') {  this._clear()  }\n    }\n  },\n\n  on: function(type, fn) {\n    if (this._alive) {\n      this._subscribers.add(type, fn);\n      this._setActive(true);\n    } else {\n      Subscribers.callOnce(type, fn, CURRENT_END);\n    }\n    return this;\n  },\n\n  off: function(type, fn) {\n    if (this._alive) {\n      this._subscribers.remove(type, fn);\n      if (this._subscribers.isEmpty()) {\n        this._setActive(false);\n      }\n    }\n    return this;\n  },\n\n  onValue:  function(fn) {  return this.on('value', fn)   },\n  onEnd:    function(fn) {  return this.on('end', fn)     },\n  onAny:    function(fn) {  return this.on('any', fn)     },\n\n  offValue: function(fn) {  return this.off('value', fn)  },\n  offEnd:   function(fn) {  return this.off('end', fn)    },\n  offAny:   function(fn) {  return this.off('any', fn)    }\n\n});\n\n\n// extend() can't handle `toString` in IE8\nObservable.prototype.toString = function() {  return '[' + this._name + ']'  };\n\n\n\n\n\n\n\n\n\n// Stream\n\nfunction Stream() {\n  Observable.call(this);\n}\nKefir.Stream = Stream;\n\ninherit(Stream, Observable, {\n\n  _name: 'stream'\n\n});\n\n\n\n\n\n\n\n// Property\n\nfunction Property() {\n  Observable.call(this);\n  this._current = NOTHING;\n}\nKefir.Property = Property;\n\ninherit(Property, Observable, {\n\n  _name: 'property',\n\n  _send: function(type, x, isCurrent) {\n    if (this._alive) {\n      if (!isCurrent) {\n        this._subscribers.callAll(Event(type, x));\n      }\n      if (type === 'value') {  this._current = x  }\n      if (type === 'end') {  this._clear()  }\n    }\n  },\n\n  on: function(type, fn) {\n    if (this._alive) {\n      this._subscribers.add(type, fn);\n      this._setActive(true);\n    }\n    if (this._current !== NOTHING) {\n      Subscribers.callOnce(type, fn, Event('value', this._current, true));\n    }\n    if (!this._alive) {\n      Subscribers.callOnce(type, fn, CURRENT_END);\n    }\n    return this;\n  }\n\n});\n\n\n\n\n\n\n// Log\n\nfunction logCb(name, event) {\n  var typeStr = '<' + event.type + (event.current ? ':current' : '') + '>';\n  if (event.type === 'value') {\n    console.log(name, typeStr, event.value);\n  } else {\n    console.log(name, typeStr);\n  }\n}\n\nObservable.prototype.log = function(name) {\n  this.onAny([logCb, null, name || this.toString()]);\n  return this;\n}\n\nObservable.prototype.offLog = function(name) {\n  this.offAny([logCb, null, name || this.toString()]);\n  return this;\n}\n\n\n\n// Kefir.withInterval()\n\nwithInterval('withInterval', {\n  _init: function(args) {\n    this._fn = Fn(args[0], 1);\n    var $ = this;\n    this._emitter = {\n      emit: function(x) {  $._send('value', x)  },\n      end: function() {  $._send('end')  }\n    }\n  },\n  _free: function() {\n    this._fn = null;\n    this._emitter = null;\n  },\n  _onTick: function() {\n    this._fn.invoke(this._emitter);\n  }\n});\n\n\n\n\n\n// Kefir.fromPoll()\n\nwithInterval('fromPoll', {\n  _init: function(args) {\n    this._fn = Fn(args[0], 0);\n  },\n  _free: function() {\n    this._fn = null;\n  },\n  _onTick: function() {\n    this._send('value', this._fn.invoke());\n  }\n});\n\n\n\n\n\n// Kefir.interval()\n\nwithInterval('interval', {\n  _init: function(args) {\n    this._x = args[0];\n  },\n  _free: function() {\n    this._x = null;\n  },\n  _onTick: function() {\n    this._send('value', this._x);\n  }\n});\n\n\n\n\n// Kefir.sequentially()\n\nwithInterval('sequentially', {\n  _init: function(args) {\n    this._xs = cloneArray(args[0]);\n    if (this._xs.length === 0) {\n      this._send('end')\n    }\n  },\n  _free: function() {\n    this._xs = null;\n  },\n  _onTick: function() {\n    switch (this._xs.length) {\n      case 1:\n        this._send('value', this._xs[0]);\n        this._send('end');\n        break;\n      default:\n        this._send('value', this._xs.shift());\n    }\n  }\n});\n\n\n\n\n// Kefir.repeatedly()\n\nwithInterval('repeatedly', {\n  _init: function(args) {\n    this._xs = cloneArray(args[0]);\n    this._i = -1;\n  },\n  _onTick: function() {\n    if (this._xs.length > 0) {\n      this._i = (this._i + 1) % this._xs.length;\n      this._send('value', this._xs[this._i]);\n    }\n  }\n});\n\n\n\n\n\n// Kefir.later()\n\nwithInterval('later', {\n  _init: function(args) {\n    this._x = args[0];\n  },\n  _free: function() {\n    this._x = null;\n  },\n  _onTick: function() {\n    this._send('value', this._x);\n    this._send('end');\n  }\n});\n\nfunction _AbstractPool(options) {\n  Stream.call(this);\n\n  this._queueLim = get(options, 'queueLim', 0);    // -1...∞\n  this._concurLim = get(options, 'concurLim', -1); // -1, 1...∞\n  this._drop = get(options, 'drop', 'new');        // old, new\n  if (this._concurLim === 0) {\n    throw new Error('options.concurLim can\\'t be 0');\n  }\n\n  this._queue = [];\n  this._curSources = [];\n  this._activating = false;\n}\n\ninherit(_AbstractPool, Stream, {\n\n  _name: 'abstractPool',\n\n  _add: function(obs) {\n    if (this._concurLim === -1 || this._curSources.length < this._concurLim) {\n      this._addToCur(obs);\n    } else {\n      if (this._queueLim === -1 || this._queue.length < this._queueLim) {\n        this._addToQueue(obs);\n      } else if (this._drop === 'old') {\n        this._removeOldest();\n        this._add(obs);\n      }\n    }\n  },\n  _addAll: function(obss) {\n    var $ = this;\n    forEach(obss, function(obs) {  $._add(obs)  });\n  },\n  _remove: function(obs) {\n    if (this._removeCur(obs) === -1) {\n      this._removeQueue(obs);\n    }\n  },\n\n  _addToQueue: function(obs) {\n    this._queue = concat(this._queue, [obs]);\n  },\n  _addToCur: function(obs) {\n    this._curSources = concat(this._curSources, [obs]);\n    if (this._active) {  this._sub(obs)  }\n  },\n  _sub: function(obs) {\n    obs.onAny([this._handleSubAny, this]);\n    obs.onEnd([this._removeCur, this, obs]);\n  },\n  _unsub: function(obs) {\n    obs.offAny([this._handleSubAny, this]);\n    obs.offEnd([this._removeCur, this, obs]);\n  },\n  _handleSubAny: function(event) {\n    if (event.type === 'value') {\n      this._send('value', event.value, event.current && this._activating);\n    }\n  },\n\n  _removeQueue: function(obs) {\n    var index = find(this._queue, obs);\n    this._queue = remove(this._queue, index);\n    return index;\n  },\n  _removeCur: function(obs) {\n    if (this._active) {  this._unsub(obs)  }\n    var index = find(this._curSources, obs);\n    this._curSources = remove(this._curSources, index);\n    if (index !== -1) {\n      if (this._queue.length !== 0) {\n        this._pullQueue();\n      } else if (this._curSources.length === 0) {\n        this._onEmpty();\n      }\n    }\n    return index;\n  },\n  _removeOldest: function() {\n    this._removeCur(this._curSources[0]);\n  },\n\n  _pullQueue: function() {\n    if (this._queue.length !== 0) {\n      this._queue = cloneArray(this._queue);\n      this._addToCur(this._queue.shift());\n    }\n  },\n\n  _onActivation: function() {\n    var sources = this._curSources\n      , i;\n    this._activating = true;\n    for (i = 0; i < sources.length; i++) {  this._sub(sources[i])  }\n    this._activating = false;\n  },\n  _onDeactivation: function() {\n    var sources = this._curSources\n      , i;\n    for (i = 0; i < sources.length; i++) {  this._unsub(sources[i])  }\n  },\n\n  _isEmpty: function() {  return this._curSources.length === 0  },\n  _onEmpty: function() {},\n\n  _clear: function() {\n    Stream.prototype._clear.call(this);\n    this._queue = null;\n    this._curSources = null;\n  }\n\n});\n\n\n\n\n\n// .merge()\n\nvar MergeLike = {\n  _onEmpty: function() {\n    if (this._initialised) {  this._send('end', null, this._activating)  }\n  }\n};\n\nfunction Merge(sources) {\n  _AbstractPool.call(this);\n  if (sources.length === 0) {  this._send('end')  } else {  this._addAll(sources)  }\n  this._initialised = true;\n}\n\ninherit(Merge, _AbstractPool, extend({_name: 'merge'}, MergeLike));\n\nKefir.merge = function() {\n  return new Merge(agrsToArray(arguments));\n}\n\nObservable.prototype.merge = function(other) {\n  return Kefir.merge([this, other]);\n}\n\n\n\n\n// .concat()\n\nfunction Concat(sources) {\n  _AbstractPool.call(this, {concurLim: 1, queueLim: -1});\n  if (sources.length === 0) {  this._send('end')  } else {  this._addAll(sources)  }\n  this._initialised = true;\n}\n\ninherit(Concat, _AbstractPool, extend({_name: 'concat'}, MergeLike));\n\nKefir.concat = function() {\n  return new Concat(agrsToArray(arguments));\n}\n\nObservable.prototype.concat = function(other) {\n  return Kefir.concat([this, other]);\n}\n\n\n\n\n\n\n// .pool()\n\nfunction Pool() {\n  _AbstractPool.call(this);\n}\n\ninherit(Pool, _AbstractPool, {\n\n  _name: 'pool',\n\n  add: function(obs) {\n    this._add(obs);\n    return this;\n  },\n  remove: function(obs) {\n    this._remove(obs);\n    return this;\n  }\n\n});\n\nKefir.pool = function() {\n  return new Pool();\n}\n\n\n\n\n\n// .flatMap()\n\nfunction FlatMap(source, fn, options) {\n  _AbstractPool.call(this, options);\n  this._source = source;\n  this._fn = fn ? Fn(fn, 1) : null;\n  this._mainEnded = false;\n  this._lastCurrent = null;\n}\n\ninherit(FlatMap, _AbstractPool, {\n\n  _onActivation: function() {\n    _AbstractPool.prototype._onActivation.call(this);\n    this._activating = true;\n    this._source.onAny([this._handleMainSource, this]);\n    this._activating = false;\n  },\n  _onDeactivation: function() {\n    _AbstractPool.prototype._onDeactivation.call(this);\n    this._source.offAny([this._handleMainSource, this]);\n  },\n\n  _handleMainSource: function(event) {\n    if (event.type === 'value') {\n      if (!event.current || this._lastCurrent !== event.value) {\n        this._add(this._fn ? this._fn.invoke(event.value) : event.value);\n      }\n      this._lastCurrent = event.value;\n    } else {\n      if (this._isEmpty()) {\n        this._send('end', null, event.current);\n      } else {\n        this._mainEnded = true;\n      }\n    }\n  },\n\n  _onEmpty: function() {\n    if (this._mainEnded) {  this._send('end')  }\n  },\n\n  _clear: function() {\n    _AbstractPool.prototype._clear.call(this);\n    this._source = null;\n    this._lastCurrent = null;\n  }\n\n});\n\nObservable.prototype.flatMap = function(fn) {\n  return new FlatMap(this, fn)\n    .setName(this, 'flatMap');\n}\n\nObservable.prototype.flatMapLatest = function(fn) {\n  return new FlatMap(this, fn, {concurLim: 1, drop: 'old'})\n    .setName(this, 'flatMapLatest');\n}\n\nObservable.prototype.flatMapFirst = function(fn) {\n  return new FlatMap(this, fn, {concurLim: 1})\n    .setName(this, 'flatMapFirst');\n}\n\nObservable.prototype.flatMapConcat = function(fn) {\n  return new FlatMap(this, fn, {queueLim: -1, concurLim: 1})\n    .setName(this, 'flatMapConcat');\n}\n\nObservable.prototype.flatMapWithConcurrencyLimit = function(fn, limit) {\n  var result;\n  if (limit === 0) {\n    result = Kefir.never();\n  } else {\n    if (limit < 0) {  limit = -1  }\n    result = new FlatMap(this, fn, {queueLim: -1, concurLim: limit});\n  }\n  return result.setName(this, 'flatMapWithConcurrencyLimit');\n}\n\n\n\n\n\n// .sampledBy()\n\nfunction SampledBy(passive, active, combinator) {\n  Stream.call(this);\n  if (active.length === 0) {\n    this._send('end');\n  } else {\n    this._passiveCount = passive.length;\n    this._combinator = combinator ? Fn(combinator) : null;\n    this._sources = concat(passive, active);\n    this._aliveCount = 0;\n    this._currents = new Array(this._sources.length);\n    fillArray(this._currents, NOTHING);\n    this._activating = false;\n    this._emitAfterActivation = false;\n    this._endAfterActivation = false;\n  }\n}\n\ninherit(SampledBy, Stream, {\n\n  _name: 'sampledBy',\n\n  _onActivation: function() {\n    var length = this._sources.length,\n        i;\n    this._aliveCount = length - this._passiveCount;\n    this._activating = true;\n    for (i = 0; i < length; i++) {\n      this._sources[i].onAny([this._handleAny, this, i]);\n    }\n    this._activating = false;\n    if (this._emitAfterActivation) {\n      this._emitAfterActivation = false;\n      this._emitIfFull(true);\n    }\n    if (this._endAfterActivation) {\n      this._send('end', null, true);\n    }\n  },\n\n  _onDeactivation: function() {\n    var length = this._sources.length,\n        i;\n    for (i = 0; i < length; i++) {\n      this._sources[i].offAny([this._handleAny, this, i]);\n    }\n  },\n\n  _emitIfFull: function(isCurrent) {\n    if (!contains(this._currents, NOTHING)) {\n      var combined = cloneArray(this._currents);\n      if (this._combinator) {\n        combined = this._combinator.apply(this._currents);\n      }\n      this._send('value', combined, isCurrent);\n    }\n  },\n\n  _handleAny: function(i, event) {\n    if (event.type === 'value') {\n      this._currents[i] = event.value;\n      if (i >= this._passiveCount) {\n        if (this._activating) {\n          this._emitAfterActivation = true;\n        } else {\n          this._emitIfFull(event.current);\n        }\n      }\n    } else {\n      if (i >= this._passiveCount) {\n        this._aliveCount--;\n        if (this._aliveCount === 0) {\n          if (this._activating) {\n            this._endAfterActivation = true;\n          } else {\n            this._send('end', null, event.current);\n          }\n        }\n      }\n    }\n  },\n\n  _clear: function() {\n    Stream.prototype._clear.call(this);\n    this._sources = null;\n    this._currents = null;\n  }\n\n});\n\nKefir.sampledBy = function(passive, active, combinator) {\n  return new SampledBy(passive, active, combinator);\n}\n\nObservable.prototype.sampledBy = function(other, combinator) {\n  return Kefir.sampledBy([this], [other], combinator);\n}\n\n\n\n\n// .combine()\n\nKefir.combine = function(sources, combinator) {\n  var result = new SampledBy([], sources, combinator);\n  result._name = 'combine';\n  return result;\n}\n\nObservable.prototype.combine = function(other, combinator) {\n  return Kefir.combine([this, other], combinator);\n}\n\nfunction produceStream(StreamClass, PropertyClass) {\n  return function() {  return new StreamClass(this, arguments)  }\n}\nfunction produceProperty(StreamClass, PropertyClass) {\n  return function() {  return new PropertyClass(this, arguments)  }\n}\n\n\n\n// .toProperty()\n\nwithOneSource('toProperty', {\n  _init: function(args) {\n    if (args.length > 0) {\n      this._send('value', args[0]);\n    }\n  }\n}, {propertyMethod: null, streamMethod: produceProperty});\n\n\n\n\n// .changes()\n\nwithOneSource('changes', {\n  _handleValue: function(x, isCurrent) {\n    if (!isCurrent) {\n      this._send('value', x);\n    }\n  }\n}, {streamMethod: null, propertyMethod: produceStream});\n\n\n\n\n// .withHandler()\n\nwithOneSource('withHandler', {\n  _init: function(args) {\n    this._handler = Fn(args[0], 2);\n    this._forcedCurrent = false;\n    var $ = this;\n    this._emitter = {\n      emit: function(x) {  $._send('value', x, $._forcedCurrent)  },\n      end: function() {  $._send('end', null, $._forcedCurrent)  }\n    }\n  },\n  _free: function() {\n    this._handler = null;\n    this._emitter = null;\n  },\n  _handleAny: function(event) {\n    this._forcedCurrent = event.current;\n    this._handler.invoke(this._emitter, event);\n    this._forcedCurrent = false;\n  }\n});\n\n\n\n\nvar withFnArgMixin = {\n  _init: function(args) {  this._fn = Fn(args[0], 1)  },\n  _free: function() {  this._fn = null  }\n};\n\n\n// .map(fn)\n\nwithOneSource('map', extend({\n  _handleValue: function(x, isCurrent) {\n    this._send('value', this._fn.invoke(x), isCurrent);\n  }\n}, withFnArgMixin));\n\n\n\n\n\n// .filter(fn)\n\nwithOneSource('filter', extend({\n  _handleValue: function(x, isCurrent) {\n    if (this._fn.invoke(x)) {\n      this._send('value', x, isCurrent);\n    }\n  }\n}, withFnArgMixin));\n\n\n\n\n\n// .takeWhile(fn)\n\nwithOneSource('takeWhile', extend({\n  _handleValue: function(x, isCurrent) {\n    if (this._fn.invoke(x)) {\n      this._send('value', x, isCurrent);\n    } else {\n      this._send('end', null, isCurrent);\n    }\n  }\n}, withFnArgMixin));\n\n\n\n\n\n// .take(n)\n\nwithOneSource('take', {\n  _init: function(args) {\n    this._n = args[0];\n    if (this._n <= 0) {\n      this._send('end');\n    }\n  },\n  _handleValue: function(x, isCurrent) {\n    this._n--;\n    this._send('value', x, isCurrent);\n    if (this._n === 0) {\n      this._send('end');\n    }\n  }\n});\n\n\n\n\n\n// .skip(n)\n\nwithOneSource('skip', {\n  _init: function(args) {\n    this._n = args[0] < 0 ? 0 : args[0];\n  },\n  _handleValue: function(x, isCurrent) {\n    if (this._n === 0) {\n      this._send('value', x, isCurrent);\n    } else {\n      this._n--;\n    }\n  }\n});\n\n\n\n\n// .skipDuplicates([fn])\n\nwithOneSource('skipDuplicates', {\n  _init: function(args) {\n    this._fn = args[0] && Fn(args[0], 2);\n    this._prev = NOTHING;\n  },\n  _free: function() {\n    this._fn = null;\n    this._prev = null;\n  },\n  _isEqual: function(a, b) {\n    return this._fn ? this._fn.invoke(a, b) : a === b;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (this._prev === NOTHING || !this._isEqual(this._prev, x)) {\n      this._send('value', x, isCurrent);\n      this._prev = x;\n    }\n  }\n});\n\n\n\n\n\n// .skipWhile(fn)\n\nwithOneSource('skipWhile', {\n  _init: function(args) {\n    this._fn = Fn(args[0], 1);\n    this._skip = true;\n  },\n  _free: function() {\n    this._fn = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (!this._skip) {\n      this._send('value', x, isCurrent);\n      return;\n    }\n    if (!this._fn.invoke(x)) {\n      this._skip = false;\n      this._fn = null;\n      this._send('value', x, isCurrent);\n    }\n  }\n});\n\n\n\n\n\n// .diff(seed, fn)\n\nwithOneSource('diff', {\n  _init: function(args) {\n    this._prev = args[0];\n    this._fn = Fn(args[1], 2);\n  },\n  _free: function() {\n    this._prev = null;\n    this._fn = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    this._send('value', this._fn.invoke(this._prev, x), isCurrent);\n    this._prev = x;\n  }\n});\n\n\n\n\n\n// .scan(seed, fn)\n\nwithOneSource('scan', {\n  _init: function(args) {\n    this._send('value', args[0], true);\n    this._fn = Fn(args[1], 2);\n  },\n  _free: function() {\n    this._fn = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    this._send('value', this._fn.invoke(this._current, x), isCurrent);\n  }\n}, {streamMethod: produceProperty});\n\n\n\n\n\n// .reduce(seed, fn)\n\nwithOneSource('reduce', {\n  _init: function(args) {\n    this._result = args[0];\n    this._fn = Fn(args[1], 2);\n  },\n  _free: function(){\n    this._fn = null;\n    this._result = null;\n  },\n  _handleValue: function(x) {\n    this._result = this._fn.invoke(this._result, x);\n  },\n  _handleEnd: function(__, isCurrent) {\n    this._send('value', this._result, isCurrent);\n    this._send('end', null, isCurrent);\n  }\n});\n\n\n\n\n\n// .debounce(wait, {immediate})\n\nwithOneSource('debounce', {\n  _init: function(args) {\n    this._wait = Math.max(0, args[0]);\n    this._immediate = get(args[1], 'immediate', false);\n    this._lastAttempt = 0;\n    this._timeoutId = null;\n    this._laterValue = null;\n    this._endLater = false;\n    var $ = this;\n    this._$later = function() {  $._later()  };\n  },\n  _free: function() {\n    this._laterValue = null;\n    this._$later = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (isCurrent) {\n      this._send('value', x, isCurrent);\n    } else {\n      this._lastAttempt = now();\n      if (this._immediate && !this._timeoutId) {\n        this._send('value', x);\n      }\n      if (!this._timeoutId) {\n        this._timeoutId = setTimeout(this._$later, this._wait);\n      }\n      if (!this._immediate) {\n        this._laterValue = x;\n      }\n    }\n  },\n  _handleEnd: function(__, isCurrent) {\n    if (isCurrent) {\n      this._send('end', null, isCurrent);\n    } else {\n      if (this._timeoutId && !this._immediate) {\n        this._endLater = true;\n      } else {\n        this._send('end');\n      }\n    }\n  },\n  _later: function() {\n    var last = now() - this._lastAttempt;\n    if (last < this._wait && last >= 0) {\n      this._timeoutId = setTimeout(this._$later, this._wait - last);\n    } else {\n      this._timeoutId = null;\n      if (!this._immediate) {\n        this._send('value', this._laterValue);\n        this._laterValue = null;\n      }\n      if (this._endLater) {\n        this._send('end');\n      }\n    }\n  }\n});\n\n\n\n\n\n// .throttle(wait, {leading, trailing})\n\nwithOneSource('throttle', {\n  _init: function(args) {\n    this._wait = Math.max(0, args[0]);\n    this._leading = get(args[1], 'leading', true);\n    this._trailing = get(args[1], 'trailing', true);\n    this._trailingValue = null;\n    this._timeoutId = null;\n    this._endLater = false;\n    this._lastCallTime = 0;\n    var $ = this;\n    this._$trailingCall = function() {  $._trailingCall()  };\n  },\n  _free: function() {\n    this._trailingValue = null;\n    this._$trailingCall = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (isCurrent) {\n      this._send('value', x, isCurrent);\n    } else {\n      var curTime = now();\n      if (this._lastCallTime === 0 && !this._leading) {\n        this._lastCallTime = curTime;\n      }\n      var remaining = this._wait - (curTime - this._lastCallTime);\n      if (remaining <= 0) {\n        this._cancelTraling();\n        this._lastCallTime = curTime;\n        this._send('value', x);\n      } else if (this._trailing) {\n        this._cancelTraling();\n        this._trailingValue = x;\n        this._timeoutId = setTimeout(this._$trailingCall, remaining);\n      }\n    }\n  },\n  _handleEnd: function(__, isCurrent) {\n    if (isCurrent) {\n      this._send('end', null, isCurrent);\n    } else {\n      if (this._timeoutId) {\n        this._endLater = true;\n      } else {\n        this._send('end');\n      }\n    }\n  },\n  _cancelTraling: function() {\n    if (this._timeoutId !== null) {\n      clearTimeout(this._timeoutId);\n      this._timeoutId = null;\n    }\n  },\n  _trailingCall: function() {\n    this._send('value', this._trailingValue);\n    this._timeoutId = null;\n    this._trailingValue = null;\n    this._lastCallTime = !this._leading ? 0 : now();\n    if (this._endLater) {\n      this._send('end');\n    }\n  }\n});\n\n\n\n\n\n// .delay()\n\nwithOneSource('delay', {\n  _init: function(args) {\n    this._wait = Math.max(0, args[0]);\n    this._buff = [];\n    var $ = this;\n    this._$shiftBuff = function() {  $._send('value', $._buff.shift())  }\n  },\n  _free: function() {\n    this._buff = null;\n    this._$shiftBuff = null;\n  },\n  _handleValue: function(x, isCurrent) {\n    if (isCurrent) {\n      this._send('value', x, isCurrent);\n    } else {\n      this._buff.push(x);\n      setTimeout(this._$shiftBuff, this._wait);\n    }\n  },\n  _handleEnd: function(__, isCurrent) {\n    if (isCurrent) {\n      this._send('end', null, isCurrent);\n    } else {\n      var $ = this;\n      setTimeout(function() {  $._send('end')  }, this._wait);\n    }\n  }\n});\n\n// Kefir.fromBinder(fn)\n\nfunction FromBinder(fn) {\n  Stream.call(this);\n  this._fn = Fn(fn, 1);\n  this._unsubscribe = null;\n}\n\ninherit(FromBinder, Stream, {\n\n  _name: 'fromBinder',\n\n  _onActivation: function() {\n    var $ = this\n      , unsub\n      , isCurrent = true\n      , emitter = {\n        emit: function(x) {  $._send('value', x, isCurrent)  },\n        end: function() {  $._send('end', null, isCurrent)  }\n      };\n    unsub = this._fn.invoke(emitter);\n    isCurrent = false;\n    if (unsub) {\n      this._unsubscribe = Fn(unsub, 0);\n    }\n  },\n  _onDeactivation: function() {\n    if (this._unsubscribe !== null) {\n      this._unsubscribe.invoke();\n      this._unsubscribe = null;\n    }\n  },\n\n  _clear: function() {\n    Stream.prototype._clear.call(this);\n    this._fn = null;\n  }\n\n})\n\nKefir.fromBinder = function(fn) {\n  return new FromBinder(fn);\n}\n\n\n\n\n\n\n// Kefir.emitter()\n\nfunction Emitter() {\n  Stream.call(this);\n}\n\ninherit(Emitter, Stream, {\n  _name: 'emitter',\n  emit: function(x) {  this._send('value', x)  },\n  end: function() {  this._send('end')  }\n});\n\nKefir.emitter = function() {\n  return new Emitter();\n}\n\n\n\n\n\n\n\n// Kefir.never()\n\nvar neverObj = new Stream();\nneverObj._send('end');\nneverObj._name = 'never';\nKefir.never = function() {  return neverObj  }\n\n\n\n\n\n// Kefir.constant(x)\n\nfunction Constant(x) {\n  Property.call(this);\n  this._send('value', x);\n  this._send('end');\n}\n\ninherit(Constant, Property, {\n  _name: 'constant'\n})\n\nKefir.constant = function(x) {\n  return new Constant(x);\n}\n\n\n// .setName\n\nObservable.prototype.setName = function(sourceObs, selfName /* or just selfName */) {\n  this._name = selfName ? sourceObs._name + '.' + selfName : sourceObs;\n  return this;\n}\n\n\n\n// .mapTo\n\nObservable.prototype.mapTo = function(value) {\n  return this.map(function() {  return value  }).setName(this, 'mapTo');\n}\n\n\n\n// .pluck\n\nObservable.prototype.pluck = function(propertyName) {\n  return this.map(function(x) {\n    return x[propertyName];\n  }).setName(this, 'pluck');\n}\n\n\n\n// .invoke\n\nObservable.prototype.invoke = function(methodName /*, arg1, arg2... */) {\n  var args = rest(arguments, 1);\n  return this.map(args ?\n    function(x) {  return apply(x[methodName], x, args)  } :\n    function(x) {  return x[methodName]()  }\n  ).setName(this, 'invoke');\n}\n\n\n\n// .tap\n\nObservable.prototype.tap = function(fn) {\n  fn = Fn(fn, 1);\n  return this.map(function(x) {\n    fn.invoke(x);\n    return x;\n  }).setName(this, 'tap');\n}\n\n\n\n// .and\n\nKefir.and = function(observables) {\n  return Kefir.combine(observables, and).setName('and');\n}\n\nObservable.prototype.and = function(other) {\n  return this.combine(other, and).setName('and');\n}\n\n\n\n// .or\n\nKefir.or = function(observables) {\n  return Kefir.combine(observables, or).setName('or');\n}\n\nObservable.prototype.or = function(other) {\n  return this.combine(other, or).setName('or');\n}\n\n\n\n// .not\n\nObservable.prototype.not = function() {\n  return this.map(function(x) {  return !x  }).setName(this, 'not');\n}\n\n\n\n// .awaiting\n\nObservable.prototype.awaiting = function(other) {\n  return Kefir.merge([\n    this.mapTo(true),\n    other.mapTo(false)\n  ]).skipDuplicates().toProperty(false).setName(this, 'awaiting');\n}\n\n\n\n// .filterBy\n\nObservable.prototype.filterBy = function(other) {\n  return other\n    .sampledBy(this)\n    .withHandler(function(emitter, e) {\n      if (e.type === 'end') {\n        emitter.end();\n      } else if (e.value[0]) {\n        emitter.emit(e.value[1]);\n      }\n    })\n    .setName(this, 'filterBy');\n}\n\n\n\n\n// .fromCallback\n\nKefir.fromCallback = function(callbackConsumer) {\n  callbackConsumer = Fn(callbackConsumer, 1);\n  var called = false;\n  return Kefir.fromBinder(function(emitter) {\n    if (!called) {\n      callbackConsumer.invoke(function(x) {\n        emitter.emit(x);\n        emitter.end();\n      });\n      called = true;\n    }\n  }).setName('fromCallback');\n}\n\n\n  if (typeof define === 'function' && define.amd) {\n    define([], function() {\n      return Kefir;\n    });\n    global.Kefir = Kefir;\n  } else if (typeof module === \"object\" && typeof exports === \"object\") {\n    module.exports = Kefir;\n    Kefir.Kefir = Kefir;\n  } else {\n    global.Kefir = Kefir;\n  }\n\n}(this));"
+    },
+    {
+      "id": 13,
+      "identifier": "external \"/Users/demi/Projects/react-pellet/node_modules/react/react.js\"",
+      "name": "external \"/Users/demi/Projects/react-pellet/node_modules/react/react.js\"",
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/jsx-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.jsx",
+          "module": "./components/watch-video/watch-video.jsx",
+          "moduleName": "./components/watch-video/watch-video.jsx",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "3:12-28"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "identifier": "/Users/demi/Projects/react-pellet/node_modules/url-loader/index.js?limit=100000&mimetype=image/svg+xml!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/vevo-header.svg",
+      "name": "./components/watch-video/vevo-header.svg",
+      "size": 2449,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+      "profile": {
+        "factory": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/Users/demi/Projects/react-pellet/node_modules/css-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/autoprefixer-loader/index.js!/Users/demi/Projects/react-pellet/node_modules/stylus-loader/index.js!/Users/demi/Projects/vevo-embed/inline-player/components/watch-video/watch-video.styl",
+          "module": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+          "moduleName": "/Users/demi/Projects/react-pellet/~/css-loader!/Users/demi/Projects/react-pellet/~/autoprefixer-loader!/Users/demi/Projects/react-pellet/~/stylus-loader!./components/watch-video/watch-video.styl",
+          "type": "cjs require",
+          "userRequest": "./vevo-header.svg",
+          "loc": "2:364-392"
+        }
+      ],
+      "source": "module.exports = \"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI4OHB4IiBoZWlnaHQ9IjIycHgiIHZpZXdCb3g9IjAgMCA4OCAyMiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgODggMjIiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBmaWxsPSIjRUQxQTNCIiBkPSJNMjAuODA0LDAuNzFjLTMuOTA1LDAtNC42NDksMi4yOTktNS44MTQsMy45NzljMCwwLTMuMTY4LDQuODI1LTQuMzczLDYuNjYyTDguMDE4LDAuNzFoLTYuOTgKCQkJCUw1LjQ0LDE4LjUzM2MwLjkxMiwzLjE4NCwzLjUwNCwyLjk4MSwzLjUwNCwyLjk4MWMxLjc3NSwwLDMuMTA2LTAuOTQxLDQuMzEyLTIuNzIyTDI1LjEzMSwwLjcxCgkJCQlDMjUuMTMxLDAuNzEsMjAuOTc3LDAuNzEsMjAuODA0LDAuNzF6IE02My45NDksMC43MWMtMy45MDUsMC00LjY0OSwyLjI5OS01LjgxNCwzLjk3OWMwLDAtMy4xNjcsNC44MjUtNC4zNzQsNi42NjJMNTEuMTYzLDAuNzEKCQkJCWgtNi45ODFsNC40MDMsMTcuODIzYzAuOTExLDMuMTg0LDMuNTA0LDIuOTgxLDMuNTA0LDIuOTgxYzEuNzc1LDAsMy4xMDUtMC45NDEsNC4zMTItMi43MjJMNjguMjc2LDAuNzEKCQkJCUM2OC4yNzYsMC43MSw2NC4xMjIsMC43MSw2My45NDksMC43MXogTTc3LjE1OSwwLjI2NEM3MC4zMTcsMC4yNjIsNjQuOTQsNS45OTIsNjQuNzI4LDEyLjE3NwoJCQkJYy0wLjE4Nyw1LjQyNiwzLjQ1MSw5LjU2Myw5LjY4OSw5LjU2NGM2Ljg4MSwwLDEyLjI1OC01LjcyOSwxMi40NzEtMTEuOTUyQzg3LjA3Myw0LjQwMSw4My40MzYsMC4yNjUsNzcuMTU5LDAuMjY0egoJCQkJIE03NS4wNjEsMTUuMzljLTIuMDU3LDAtMy40MDUtMS4zNjktMy4zMjctMy41NDZjMC4wODgtMi40NTcsMi4wNjEtNS4yMyw0LjgxOC01LjIzYzIuMDU4LDAsMy40MDUsMS4zNzEsMy4zMjksMy41MTIKCQkJCUM3OS43OTIsMTIuNjE3LDc3LjgxOCwxNS4zOTEsNzUuMDYxLDE1LjM5eiBNMzQuMzE4LDAuMjU5Yy02Ljg0NC0wLjAwMi0xMi4yMTksNS43MjgtMTIuNDMyLDExLjkxMwoJCQkJYy0wLjE4Nyw1LjQyNywzLjQ1Miw5LjU2Myw5LjY4OSw5LjU2NGM0Ljk0NiwwLDkuMTE1LTIuOTYyLDExLjE0OC02LjkzN2wtNy42MDYsMGMtMC44MjUsMC43MDMtMS44MzQsMS4xNDgtMi45NjQsMS4xNDgKCQkJCWMtMS45NTIsMC0zLjMxNi0xLjE3Mi0zLjU4LTMuMDk0bDEzLjA0MSwwLjAwMWMxLjAzMywwLDEuOTk1LTAuMTQ4LDIuMjEyLTEuMjI1YzAuMTIzLTAuNjA3LDAuMTk4LTEuMjIzLDAuMjE5LTEuODQ2CgkJCQlDNDQuMjMyLDQuMzk2LDQwLjU5NCwwLjI2LDM0LjMxOCwwLjI1OXogTTM2LjcwOSw4LjY0NGgtNy4xMzdjMC45My0xLjQ4NiwyLjQxNi0yLjU5Niw0LjIwNS0yLjU5NgoJCQkJYzEuNjIzLDAsMi44MzYsMC44MTMsMy4zNTIsMi4xOEMzNy4yMDMsOC41MTQsMzcuMDIyLDguNjQ0LDM2LjcwOSw4LjY0NHoiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==\""
+    }
+  ],
+  "children": []
+}

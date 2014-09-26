@@ -1,0 +1,10 @@
+[
+  {
+    "name": "watchVideo",
+    "version": "0.0.0",
+    "component": "./components/watch-video/watch-video.jsx",
+    "assets": [
+      "./components/watch-video/watch-video.styl"
+    ]
+  }
+]
